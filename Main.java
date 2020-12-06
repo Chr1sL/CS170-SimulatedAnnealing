@@ -31,7 +31,7 @@ public class Main {
      */
     static void write(String name, ArrayList<ArrayList<Float>> content){
         try {
-            String filename= "outputs/" + name + ".out";
+            String filename= "Phase2_outputs/" + name + ".out";
             File myObj = new File(filename);
 
             if (myObj.createNewFile()) {
