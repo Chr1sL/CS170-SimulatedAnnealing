@@ -111,8 +111,8 @@ public class Main {
                 String name = file.getName().replaceFirst("[.][^.]+$", "");
 
                 ArrayList<String> lines = read(file);
-                int number = Integer.parseInt(lines.remove(0));
-                float max = Float.parseFloat(lines.remove(0));
+                int number = Integer.parseInt(lines.remove(0).replaceAll(" ", ""));
+                float max = Float.parseFloat(lines.remove(0).replaceAll(" ", ""));
 
                 ArrayList<ArrayList<Float>> finalInput = new ArrayList<ArrayList<Float>>();
                 for (String line: lines) {
@@ -125,13 +125,13 @@ public class Main {
                 }
 
                 HashMap inputHash = hash(finalInput);
-                ArrayList<ArrayList<Float>> newLines = randOut.compare(number, max, inputHash);
+//                ArrayList<ArrayList<Float>> newLines = randOut.compare(number, max, inputHash);
 
 //                write(name, newLines);
 
                 /** remove this when test done: **/
                 write(name, finalInput);
-                break;
+//                break;
                 /*********************************/
             }
             return;
