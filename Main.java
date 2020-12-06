@@ -4,10 +4,7 @@ import java.io.FilenameFilter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 
 public class Main {
@@ -83,6 +80,21 @@ public class Main {
             }
         };
 
+    // key = [elem1, elem2], value = [stress, happiness]
+    public static HashMap hash(ArrayList<ArrayList<Float>> pairs) {
+        HashMap<Float[], Float[]> map = new HashMap<>();
+        Float[] p = new Float[2];
+        Float[] s = new Float[2];
+        for (int i = 0; i < pairs.size(); i++) {
+            p[0] = pairs.get(i).get(0); // first elem
+            p[1] = pairs.get(i).get(1); // second elem
+            s[0] = pairs.get(i).get(2); // stress
+            s[1] = pairs.get(i).get(3); // happiness
+            map.put(p, s); // maps pairs to stress and happiness vals
+        }
+        return map;
+    }
+
     /** Usage: java gitlet.Main ARGS, where ARGS contains
      *  <COMMAND> <OPERAND> .... */
     public static void main(String... args) {
@@ -130,8 +142,9 @@ public class Main {
              *  test.calc() = instance method name of actual program that will find output
              */
 
-//                Run test = new Run(finalInput, number, max);
-//                ArrayList<ArrayList<Float>> newLines = test.calc();
+                HashMap inputHash = hash(finalInput);
+                ArrayList<ArrayList<Float>> newLines = randOut.compare(number, max, inputHash);
+
 //                write(name, newLine);
 
                 /** remove this when test done: **/
