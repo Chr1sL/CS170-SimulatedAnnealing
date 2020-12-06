@@ -9,7 +9,7 @@ public class randOut{
      }
 
      // failure, return -1
-     public double s(double smax, int n, HashMap pairs) {
+     public static double s(double smax, int n, HashMap pairs) {
          ArrayList<Integer> order = shuffle(n); // random ordering of elems
          ArrayList<ArrayList<Integer>> rooms = new ArrayList<>(); // breakout rooms
          HashMap<Integer, Double> level = new HashMap<>(); //maps rooms->stress
@@ -34,13 +34,14 @@ public class randOut{
                 double currHappy = 0;
                 double currStress = 0;
                 if (rooms.get(j).size() > 1) {
-                    for (int t = 1; t < rooms.get(j).size(); t++) {//calculate stress and happiness added
+                    for (int t = 1; t < rooms.get(j).size(); t++) { //calculate stress and happiness added
                         double[] first = new double[]{order.get(i), rooms.get(j).get(t)};
                         double[] second = new double[]{rooms.get(j).get(t), order.get(i)};
-                        double[] stressHappy = new double[2];
+                        double[] stressHappy = new double[2]; //(double[]) pairs.get(second)
                         if (pairs.containsKey(first)) {
                             stressHappy = (double[]) pairs.get(first);
-                        } else {
+                        }
+                        else {
                             stressHappy = (double[]) pairs.get(second);
                         }
                         currStress += stressHappy[0];
@@ -66,7 +67,7 @@ public class randOut{
      
 
      
-     public ArrayList shuffle(int n) {
+     public static ArrayList shuffle(int n) {
         ArrayList<Integer> s = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             s.add(i);
@@ -75,7 +76,7 @@ public class randOut{
         return s;
      }
 
-     public void persist(ArrayList<ArrayList<Integer>> rooms) {
+     public static void persist(ArrayList<ArrayList<Integer>> rooms) {
         HashMap<Integer, Integer> pairs = new HashMap<>();
         for (int i = 1; i < rooms.size(); i++) {
             for (int j = 1; j < rooms.get(i).size(); j++) {
@@ -88,7 +89,7 @@ public class randOut{
     /**
      * Loops through random inputs and finds the most optimal happiness.
      */
-    public ArrayList compare(double smax, int n, HashMap pairs) {
+    public static ArrayList compare(double smax, int n, HashMap pairs) {
         double temp = s(smax, n, pairs);
         HashMap optimal = _pairings;
         int change = 5;
