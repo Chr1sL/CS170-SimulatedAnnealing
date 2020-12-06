@@ -9,7 +9,7 @@ public class randOut{
     }
 
     // failure, return -1
-    public static double s(double smax, int n, HashMap<List<Integer>, List<Float>> pairs) {
+    public static double s(double smax, int n, HashMap<String, List<Float>> pairs) {
         ArrayList<Integer> order = shuffle(n); // random ordering of elems
         ArrayList<ArrayList<Integer>> rooms = new ArrayList<>(); // breakout rooms
         HashMap<Integer, Double> level = new HashMap<>(); //maps rooms->stress
@@ -38,8 +38,8 @@ public class randOut{
                         //double[] first = new double[]{order.get(i), rooms.get(j).get(t)};
                         //double[] second = new double[]{rooms.get(j).get(t), order.get(i)};
                         //double[] stressHappy = new double[2];
-                        List<Integer> first = Arrays.asList(order.get(i), rooms.get(j).get(t));
-                        List<Integer> second = Arrays.asList(rooms.get(j).get(t), order.get(i));
+                        String first = order.get(i).toString() + " " + rooms.get(j).get(t).toString();
+                        String second = rooms.get(j).get(t).toString() + " " + order.get(i).toString();
                         ArrayList<List<Float>> stressHappy = new ArrayList<>();
                         if (pairs.containsKey(first)) {
                             //stressHappy = (double[]) pairs.get(first);
@@ -93,7 +93,7 @@ public class randOut{
     /**
      * Loops through random inputs and finds the most optimal happiness.
      */
-    public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<List<Integer>, List<Float>> pairs) {
+    public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<String, List<Float>> pairs) {
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
         int change = 5;
@@ -121,5 +121,33 @@ public class randOut{
         }
         return result;
     }
+//    public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<List<Integer>, List<Float>> pairs) {
+//        double temp = s(smax, n, pairs);
+//        HashMap<Integer, Integer> optimal = _pairings;
+//        int change = 5;
+//        while(change != 0) {
+//            double temp_two = s(smax, n, pairs);
+//            if (temp_two > temp) {
+//                temp = temp_two;
+//                optimal = _pairings;
+//                change = 5;
+//            } else {
+//                change--;
+//            }
+//        }
+//
+//        Set<Integer> key = optimal.keySet(); //keys (people)
+//        ArrayList<Integer> keys = new ArrayList<> (key);
+//        Collection<Integer> value = optimal.values(); //values
+//        ArrayList<Integer> values = new ArrayList<> (value);
+//        ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>> ();
+//        for (int i = 0; i < n; i++) {
+//            ArrayList<Integer> pair = new ArrayList<>();
+//            pair.add(keys.get(i));
+//            pair.add(values.get(i));
+//            result.add(pair);
+//        }
+//        return result;
+//    }
 
 }

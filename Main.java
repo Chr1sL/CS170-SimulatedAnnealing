@@ -94,14 +94,30 @@ public class Main {
 //        }
 //        return map;
 //    }
+
+
     // key = list(elem1, elem2), value = list(stress, happiness)
-    public static HashMap<List<Integer>, List<Float>> hash(ArrayList<ArrayList<Float>> pairs) {
-        HashMap<List<Integer>, List<Float>> map = new HashMap<>();
+//    public static HashMap<List<Integer>, List<Float>> hash(ArrayList<ArrayList<Float>> pairs) {
+//        HashMap<List<Integer>, List<Float>> map = new HashMap<>();
+//        for (int i = 0; i < pairs.size(); i++) {
+//            List<Integer> p = new ArrayList<Integer>();
+//            List<Float> s = new ArrayList<Float>();
+//            p.add(Math.round(pairs.get(i).get(0))); // first elem
+//            p.add(Math.round(pairs.get(i).get(1))); // second elem
+//            s.add(pairs.get(i).get(2)); // stress
+//            s.add(pairs.get(i).get(3)); // happiness
+//            map.put(p, s); // maps pairs to stress and happiness vals
+//        }
+//        return map;
+//    }
+
+     //key = "elem1, elem2", value = list(stress, happiness)
+    public static HashMap<String, List<Float>> hash(ArrayList<ArrayList<Float>> pairs) {
+        HashMap<String, List<Float>> map = new HashMap<>();
         for (int i = 0; i < pairs.size(); i++) {
-            List<Integer> p = new ArrayList<Integer>();
+            String p = "";
             List<Float> s = new ArrayList<Float>();
-            p.add(Math.round(pairs.get(i).get(0))); // first elem
-            p.add(Math.round(pairs.get(i).get(1))); // second elem
+            p = (pairs.get(i).get(0)).toString() + " " + (pairs.get(i).get(1)).toString(); // first elem + second elem
             s.add(pairs.get(i).get(2)); // stress
             s.add(pairs.get(i).get(3)); // happiness
             map.put(p, s); // maps pairs to stress and happiness vals
@@ -138,7 +154,7 @@ public class Main {
                     finalInput.add(numLines);
                 }
 
-                HashMap<List<Integer>, List<Float>> inputHash = hash(finalInput);
+                HashMap<String, List<Float>> inputHash = hash(finalInput);
                 ArrayList<ArrayList<Integer>> newLines = randOut.compare(number, max, inputHash);
 
                 write(name, newLines);
