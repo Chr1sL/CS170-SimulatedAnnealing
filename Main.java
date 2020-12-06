@@ -107,13 +107,6 @@ public class Main {
         if (files == null) {
             return;
         } else {
-
-
-            /** THIS IS JUST A TEST:
-             *  Test currently parses one file from input, then breaks
-             *  Also, the sort is out of order, but the loop does go through each file
-             * ***/
-
             for (File file : files) {
                 String name = file.getName().replaceFirst("[.][^.]+$", "");
 
@@ -131,21 +124,10 @@ public class Main {
                     finalInput.add(numLines);
                 }
 
-            /**
-             *  Run = placeholder name of class
-             *      at the moment, i assume that it will return an ArrayList<ArrayList<Float>>,
-             *      but feel free to change that to something else that is iterable (though, should probably keep
-             *      it a float since they're floats
-             *  finalInput = ArrayList<ArrayList<Float>> of pairings
-             *  number = # of students
-             *  max = max happiness
-             *  test.calc() = instance method name of actual program that will find output
-             */
-
                 HashMap inputHash = hash(finalInput);
                 ArrayList<ArrayList<Float>> newLines = randOut.compare(number, max, inputHash);
 
-//                write(name, newLine);
+//                write(name, newLines);
 
                 /** remove this when test done: **/
                 write(name, finalInput);
