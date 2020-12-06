@@ -75,14 +75,14 @@ public class randOut{
 
 
     // elem1 = 10, elem2 = 27 -> key = 100027
-    public static HashMap<Integer, double[]> hash(ArrayList<ArrayList<Integer>> input) {
+    public static HashMap<Integer, double[]> hash(ArrayList<ArrayList<Float>> input) {
         HashMap<Integer, double[]> map = new HashMap<>();
         double[] sh = new double[2];
         for (int i = 0; i < input.size(); i++) {
-            int elem1 = input.get(i).get(0);
-            int elem2 = input.get(i).get(1);
-            int stress = input.get(i).get(2);
-            int happy = input.get(i).get(3);
+            int elem1 = (Math.round(input.get(i).get(0)));
+            int elem2 = (Math.round(input.get(i).get(1)));
+            double stress = (double) input.get(i).get(2);
+            double happy = (double) input.get(i).get(3);
             sh[0] = stress;
             sh[1] = happy;
             map.put(pairRep(elem1, elem2), sh);
@@ -121,7 +121,7 @@ public class randOut{
     /**
      * Loops through random inputs and finds the most optimal happiness.
      */
-    public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<String, List<Float>> pairs) {
+    public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
         int change = 5;
@@ -135,7 +135,6 @@ public class randOut{
                 change--;
             }
         }
-
         Set<Integer> key = optimal.keySet(); //keys (people)
         ArrayList<Integer> keys = new ArrayList<> (key);
         Collection<Integer> value = optimal.values(); //values

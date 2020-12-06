@@ -112,18 +112,18 @@ public class Main {
 //    }
 
      //key = "elem1, elem2", value = list(stress, happiness)
-    public static HashMap<String, List<Float>> hash(ArrayList<ArrayList<Float>> pairs) {
-        HashMap<String, List<Float>> map = new HashMap<>();
-        for (int i = 0; i < pairs.size(); i++) {
-            String p = "";
-            List<Float> s = new ArrayList<Float>();
-            p = (pairs.get(i).get(0)).toString() + " " + (pairs.get(i).get(1)).toString(); // first elem + second elem
-            s.add(pairs.get(i).get(2)); // stress
-            s.add(pairs.get(i).get(3)); // happiness
-            map.put(p, s); // maps pairs to stress and happiness vals
-        }
-        return map;
-    }
+//    public static HashMap<String, List<Float>> hash(ArrayList<ArrayList<Float>> pairs) {
+//        HashMap<String, List<Float>> map = new HashMap<>();
+//        for (int i = 0; i < pairs.size(); i++) {
+//            String p = "";
+//            List<Float> s = new ArrayList<Float>();
+//            p = (pairs.get(i).get(0)).toString() + " " + (pairs.get(i).get(1)).toString(); // first elem + second elem
+//            s.add(pairs.get(i).get(2)); // stress
+//            s.add(pairs.get(i).get(3)); // happiness
+//            map.put(p, s); // maps pairs to stress and happiness vals
+//        }
+//        return map;
+//    }
 
     /** Usage: java gitlet.Main ARGS, where ARGS contains
      *  <COMMAND> <OPERAND> .... */
@@ -154,7 +154,7 @@ public class Main {
                     finalInput.add(numLines);
                 }
 
-                HashMap<String, List<Float>> inputHash = hash(finalInput);
+                HashMap<Integer, double[]> inputHash = randOut.hash(finalInput);
                 ArrayList<ArrayList<Integer>> newLines = randOut.compare(number, max, inputHash);
 
                 write(name, newLines);
