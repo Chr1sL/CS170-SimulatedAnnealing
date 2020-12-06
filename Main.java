@@ -10,6 +10,9 @@ import java.util.List;
 
 
 public class Main {
+    /** Global OPTIMAL - starts off as initial random groupings. */
+    public static ArrayList<ArrayList<Float>> optimal = new ArrayList<>();
+
     /** Return contents of FILE as a String.
      *  FILE is normal file
      */
@@ -70,6 +73,13 @@ public class Main {
             throw new IllegalArgumentException(excp.getMessage());
         }
 
+    }
+
+    /** Compare CONTENT to OPTIMAL.
+     *  Return void. Update OPTIMAL if necessary.
+     */
+    static void comparator(ArrayList<ArrayList<Float>> content) {
+        //im so tired and
     }
 
     /** Filter out all but plain files. */
