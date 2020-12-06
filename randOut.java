@@ -36,8 +36,8 @@ public class randOut{
                 double currStress = 0;
                 if (rooms.get(j).size() > 1) {
                     for (int t = 1; t < rooms.get(j).size(); t++) {//calculate stress and happiness added
-                        double[] first = new double[]{i, rooms.get(j).get(t)};
-                        double[] second = new double[]{rooms.get(j).get(t), i};
+                        double[] first = new double[]{order.get(i), rooms.get(j).get(t)};
+                        double[] second = new double[]{rooms.get(j).get(t), order.get(i)};
                         double[] stressHappy = new double[2];
                         if (pairs.containsKey(first)) {
                             stressHappy = (double[]) pairs.get(first);
@@ -57,7 +57,7 @@ public class randOut{
              if (addRoom == -1) {
                  return -1;
              }
-             rooms.get(addRoom).add(i);
+             rooms.get(addRoom).add(order.get(i));
              level.put(addRoom, addStress);
              totalHappiness += hMax;
          }
