@@ -149,8 +149,10 @@ public class Main {
                     ArrayList<Float> numLines = new ArrayList<Float>();
                     String[] liner = line.split(" ");
                     for (String num: liner){
+                        // System.out.print(Float.parseFloat(num) + " ");
                         numLines.add(Float.parseFloat(num));
                     }
+                    // System.out.println();
                     finalInput.add(numLines);
                 }
 

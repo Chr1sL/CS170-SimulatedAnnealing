@@ -10,6 +10,9 @@ public class randOut{
 
     // failure, return -1
     public static double s(double smax, int n, HashMap<Integer, double[]> pairs) {
+        if (n <= 0) {
+            return -1;
+        }
         ArrayList<Integer> order = shuffle(n); // random ordering of elems
         ArrayList<ArrayList<Integer>> rooms = new ArrayList<>(); // breakout rooms
         HashMap<Integer, Double> level = new HashMap<>(); //maps rooms->stress
@@ -25,7 +28,7 @@ public class randOut{
             level.put(i, 0.0);
         }
 
-        rooms.get(0).add(0);
+        rooms.get(0).add(order.get(0));
         for (int i = 1; i < n; i++) { // iterate thru all elems
             double hMax = -1;
             double addStress = -1;
@@ -47,6 +50,7 @@ public class randOut{
                             stressHappy = (double[]) pairs.get(first);
                             //stressHappy.add(pairs.get(first));
                         } else {
+                            // System.out.println(second);
                             stressHappy = (double[]) pairs.get(second);
                             //stressHappy.add(pairs.get(second));
                         }
@@ -62,14 +66,18 @@ public class randOut{
                     addStress = level.get(j) + currStress;
                 }
             }
+            // System.out.println("FIRST");
             if (addRoom == -1) {
+                System.out.println("FIRST");
                 return -1;
             }
             rooms.get(addRoom).add(order.get(i));
             level.put(addRoom, addStress);
             totalHappiness += hMax;
         }
+        //System.out.println("FIRST");
         persist(rooms);
+        //System.out.println("sECOND");
         return totalHappiness;
     }
 
@@ -86,7 +94,9 @@ public class randOut{
             sh[0] = stress;
             sh[1] = happy;
             map.put(pairRep(elem1, elem2), sh);
+            // System.out.println(pairRep(elem1, elem2) + " " + map.get(pairRep(elem1, elem2))[0]);
         }
+        // System.out.println("end");
         return map;
     }
 
@@ -105,17 +115,25 @@ public class randOut{
             s.add(i);
         }
         Collections.shuffle(s);
+        
+        /*
+        for (int i = 0; i < n; i++) {
+            System.out.println(s.get(i));
+        }
+        */
+        
         return s;
     }
 
     public static void persist(ArrayList<ArrayList<Integer>> rooms) {
         HashMap<Integer, Integer> pairs = new HashMap<>();
-        for (int i = 1; i < rooms.size(); i++) {
+        for (int i = 0; i < rooms.size(); i++) {
             for (int j = 1; j < rooms.get(i).size(); j++) {
-                pairs.put(rooms.get(i).get(j), i);
+                _pairings.put(rooms.get(i).get(j), rooms.get(i).get(0));
+                // System.out.println(_pairings.get(rooms.get(i).get(j)));
             }
         }
-        _pairings = pairs;
+        //_pairings = pairs;
     }
 
     /**
@@ -124,6 +142,7 @@ public class randOut{
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
+        //System.out.println(_pairings.get(n - 1));
         int change = 5;
         while(change != 0) {
             double temp_two = s(smax, n, pairs);
