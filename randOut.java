@@ -18,7 +18,7 @@ public class randOut{
         HashMap<Integer, Double> level = new HashMap<>(); //maps rooms->stress
         int totalHappiness = 0;
 
-        int k = (int)(Math.random() * n); // / (int) 1
+        int k = (int)(Math.random() * n) + 1; // / (int) 1
         double stress = smax / (double) k;
 
         for (int i = 0; i < k; i++) {
@@ -68,7 +68,7 @@ public class randOut{
             }
             // System.out.println("FIRST");
             if (addRoom == -1) {
-                System.out.println("FIRST");
+                //System.out.println("FIRST");
                 return -1;
             }
             rooms.get(addRoom).add(order.get(i));
@@ -119,9 +119,7 @@ public class randOut{
         /*
         for (int i = 0; i < n; i++) {
             System.out.println(s.get(i));
-        }
         */
-        
         return s;
     }
 
@@ -129,11 +127,11 @@ public class randOut{
         HashMap<Integer, Integer> pairs = new HashMap<>();
         for (int i = 0; i < rooms.size(); i++) {
             for (int j = 1; j < rooms.get(i).size(); j++) {
-                _pairings.put(rooms.get(i).get(j), rooms.get(i).get(0));
+                pairs.put(rooms.get(i).get(j), rooms.get(i).get(0));
                 // System.out.println(_pairings.get(rooms.get(i).get(j)));
             }
         }
-        //_pairings = pairs;
+        _pairings = pairs;
     }
 
     /**
@@ -144,8 +142,13 @@ public class randOut{
         HashMap<Integer, Integer> optimal = _pairings;
         //System.out.println(_pairings.get(n - 1));
         int change = 5;
+
         while(change != 0) {
-            double temp_two = s(smax, n, pairs);
+            double temp_two = -1;
+            while (temp_two == -1) {
+                //System.out.println(n);
+                temp_two = s(smax, n, pairs);
+            }
             if (temp_two > temp) {
                 temp = temp_two;
                 optimal = _pairings;
