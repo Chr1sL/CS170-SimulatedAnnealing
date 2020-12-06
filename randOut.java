@@ -7,8 +7,7 @@ public class randOut{
      public static void main(String []args){
         
      }
-     
-     
+
      // failure, return -1
      public double s(double smax, int n, HashMap pairs) {
          ArrayList<Integer> order = shuffle(n); // random ordering of elems
@@ -85,5 +84,37 @@ public class randOut{
         }
         _pairings = pairs;
      }
+
+    /**
+     * Loops through random inputs and finds the most optimal happiness.
+     */
+    public ArrayList compare(double smax, int n, HashMap pairs) {
+        double temp = s(smax, n, pairs);
+        HashMap optimal = _pairings;
+        int change = 5;
+        while(change != 0) {
+            double temp_two = s(smax, n, pairs);
+            if (temp_two > temp) {
+                temp = temp_two;
+                optimal = _pairings;
+                change = 5;
+            } else {
+                change --;
+            }
+        }
+
+        Set<Float> key = optimal.keySet(); //keys (people)
+        ArrayList<Float> keys = new ArrayList<Float> (key);
+        Collection<Float> value = optimal.values(); //values
+        ArrayList<Float> values = new ArrayList<Float> (value);
+        ArrayList<ArrayList<Float>> result = new ArrayList<ArrayList<Float>> ();
+        for (int i = 0; i < n; i++) {
+            ArrayList<Float> pair = new ArrayList<Float>();
+            pair.add(keys.get(i));
+            pair.add(values.get(i));
+            result.add(pair);
+        }
+        return result;
+    }
      
 }
