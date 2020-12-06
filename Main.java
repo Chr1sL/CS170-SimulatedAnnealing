@@ -4,14 +4,13 @@ import java.io.FilenameFilter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 
 public class Main {
-    /** Global OPTIMAL - starts off as initial random groupings. */
-    public static ArrayList<ArrayList<Float>> optimal = new ArrayList<>();
 
     /** Return contents of FILE as a String.
      *  FILE is normal file
@@ -21,7 +20,7 @@ public class Main {
             throw new IllegalArgumentException("must be a normal file");
         }
         try {
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get(file.getName())));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("inputs/" + file.getName())));
             return lines;
         }
         catch (IOException e) {
@@ -75,13 +74,6 @@ public class Main {
 
     }
 
-    /** Compare CONTENT to OPTIMAL.
-     *  Return void. Update OPTIMAL if necessary.
-     */
-    static void comparator(ArrayList<ArrayList<Float>> content) {
-        //im so tired and
-    }
-
     /** Filter out all but plain files. */
     private static FilenameFilter PLAIN_FILES =
         new FilenameFilter() {
@@ -98,53 +90,34 @@ public class Main {
         if (!inputs.isDirectory()) {
             throw new IllegalArgumentException("inputs must be directory");
         }
-        String[] files = inputs.list(PLAIN_FILES);
+        File[] files = inputs.listFiles(PLAIN_FILES);
+        Arrays.sort(files);
         if (files == null) {
             return;
         } else {
 
 
             /** THIS IS JUST A TEST:
-             *  Test currently writes parses pairs from .in and writes into .out
+             *  Test currently parses one file from input, then breaks
+             *  Also, the sort is out of order, but the loop does go through each file
              * ***/
 
-            File file = new File("50.in");
-            String name = file.getName().replaceFirst("[.][^.]+$", "");
+            for (File file : files) {
+                String name = file.getName().replaceFirst("[.][^.]+$", "");
 
-            ArrayList<String> lines = read(file);
-            int number = Integer.parseInt(lines.remove(0));
-            float max = Float.parseFloat(lines.remove(0));
+                ArrayList<String> lines = read(file);
+                int number = Integer.parseInt(lines.remove(0));
+                float max = Float.parseFloat(lines.remove(0));
 
-            ArrayList<ArrayList<Float>> finalInput = new ArrayList<ArrayList<Float>>();
-            for (String line: lines) {
-                ArrayList<Float> numLines = new ArrayList<Float>();
-                String[] liner = line.split(" ");
-                for (String num: liner){
-                    numLines.add(Float.parseFloat(num));
+                ArrayList<ArrayList<Float>> finalInput = new ArrayList<ArrayList<Float>>();
+                for (String line: lines) {
+                    ArrayList<Float> numLines = new ArrayList<Float>();
+                    String[] liner = line.split(" ");
+                    for (String num: liner){
+                        numLines.add(Float.parseFloat(num));
+                    }
+                    finalInput.add(numLines);
                 }
-                finalInput.add(numLines);
-            }
-
-            write(name, finalInput);
-            return;
-            /**************************/
-
-//            for (File file : files) {
-//                String name = file.getName().replaceFirst("[.][^.]+$", "");
-//
-//                ArrayList<String> lines = read(file);
-//                int number = Integer.parseInt(lines.remove(0));
-//                float max = Float.parseFloat(lines.remove(0));
-//
-//                ArrayList<ArrayList<Float>> finalInput = new ArrayList<ArrayList<Float>>();
-//                for (String line: lines) {
-//                    ArrayList<Float> numLines = new ArrayList<Float>();
-//                    String[] liner = line.split(" ");
-//                    for (String num: liner){
-//                        numLines.add(Float.parseFloat(num));
-//                    }
-//                    finalInput.add(numLines);
-//                }
 
             /**
              *  Run = placeholder name of class
@@ -159,9 +132,14 @@ public class Main {
 
 //                Run test = new Run(finalInput, number, max);
 //                ArrayList<ArrayList<Float>> newLines = test.calc();
-//                write(newLine, name);
-//                return;
-//            }
+//                write(name, newLine);
+
+                /** remove this when test done: **/
+                write(name, finalInput);
+                break;
+                /*********************************/
+            }
+            return;
         }
 
     }
