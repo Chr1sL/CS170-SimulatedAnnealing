@@ -28,7 +28,7 @@ public class Main {
     /** Write into NAME file CONTENT to end of file.
      *  file with name NAME
      */
-    static void write(String name, ArrayList<ArrayList<Float>> content){
+    static void write(String name, ArrayList<ArrayList<Integer>> content){
         try {
             String filename= "Phase2_outputs/" + name + ".out";
             File myObj = new File(filename);
@@ -42,16 +42,16 @@ public class Main {
 
             FileWriter fw = new FileWriter(filename,true);
 
-            Iterator<ArrayList<Float>> it = content.iterator();
+            Iterator<ArrayList<Integer>> it = content.iterator();
             while(it.hasNext()) {
-                ArrayList<Float> line = it.next();
+                ArrayList<Integer> line = it.next();
                 String printThis = "";
                 int i = 0;
-                for (Float num: line){
+                for (int num: line){
                     if (i < 2) {
                         printThis += Integer.toString(Math.round(num)) + " ";
                     } else {
-                        printThis += Float.toString(num) + " ";
+                        printThis += Integer.toString(num) + " ";
                     }
                     i++;
                 }
@@ -62,7 +62,7 @@ public class Main {
                     fw.write(printThis);
                 }
             }
-            
+
             fw.close();
 
         } catch (IOException excp) {
@@ -73,23 +73,37 @@ public class Main {
 
     /** Filter out all but plain files. */
     private static FilenameFilter PLAIN_FILES =
-        new FilenameFilter() {
-            @Override
-            public boolean accept(File dir, String name) {
-                return new File(dir, name).isFile();
-            }
-        };
+            new FilenameFilter() {
+                @Override
+                public boolean accept(File dir, String name) {
+                    return new File(dir, name).isFile();
+                }
+            };
 
     // key = [elem1, elem2], value = [stress, happiness]
-    public static HashMap hash(ArrayList<ArrayList<Float>> pairs) {
-        HashMap<Float[], Float[]> map = new HashMap<>();
-        Float[] p = new Float[2];
-        Float[] s = new Float[2];
+//    public static HashMap<Float[], Float[]> hash(ArrayList<ArrayList<Float>> pairs) {
+//        HashMap<Float[], Float[]> map = new HashMap<>();
+//        Float[] p = new Float[2];
+//        Float[] s = new Float[2];
+//        for (int i = 0; i < pairs.size(); i++) {
+//            p[0] = pairs.get(i).get(0); // first elem
+//            p[1] = pairs.get(i).get(1); // second elem
+//            s[0] = pairs.get(i).get(2); // stress
+//            s[1] = pairs.get(i).get(3); // happiness
+//            map.put(p, s); // maps pairs to stress and happiness vals
+//        }
+//        return map;
+//    }
+    // key = list(elem1, elem2), value = list(stress, happiness)
+    public static HashMap<List<Integer>, List<Float>> hash(ArrayList<ArrayList<Float>> pairs) {
+        HashMap<List<Integer>, List<Float>> map = new HashMap<>();
         for (int i = 0; i < pairs.size(); i++) {
-            p[0] = pairs.get(i).get(0); // first elem
-            p[1] = pairs.get(i).get(1); // second elem
-            s[0] = pairs.get(i).get(2); // stress
-            s[1] = pairs.get(i).get(3); // happiness
+            List<Integer> p = new ArrayList<Integer>();
+            List<Float> s = new ArrayList<Float>();
+            p.add(Math.round(pairs.get(i).get(0))); // first elem
+            p.add(Math.round(pairs.get(i).get(1))); // second elem
+            s.add(pairs.get(i).get(2)); // stress
+            s.add(pairs.get(i).get(3)); // happiness
             map.put(p, s); // maps pairs to stress and happiness vals
         }
         return map;
@@ -124,8 +138,8 @@ public class Main {
                     finalInput.add(numLines);
                 }
 
-                HashMap inputHash = hash(finalInput);
-                ArrayList<ArrayList<Float>> newLines = randOut.compare(number, max, inputHash);
+                HashMap<List<Integer>, List<Float>> inputHash = hash(finalInput);
+                ArrayList<ArrayList<Integer>> newLines = randOut.compare(number, max, inputHash);
 
                 write(name, newLines);
 
