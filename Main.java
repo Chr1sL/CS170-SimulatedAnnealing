@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -41,7 +42,10 @@ public class Main {
 
 
             FileWriter fw = new FileWriter(filename,true);
-            for (ArrayList<Float> line: content) {
+
+            Iterator<ArrayList<Float>> it = content.iterator();
+            while(it.hasNext()) {
+                ArrayList<Float> line = it.next();
                 String printThis = "";
                 int i = 0;
                 for (Float num: line){
@@ -53,8 +57,13 @@ public class Main {
                     i++;
                 }
                 printThis = printThis.substring(0, printThis.length() - 1);
-                fw.write(printThis  + "\n");
+                if (it.hasNext()) {
+                    fw.write(printThis + "\n");
+                } else {
+                    fw.write(printThis);
+                }
             }
+            
             fw.close();
 
         } catch (IOException excp) {
@@ -89,7 +98,7 @@ public class Main {
              *  Test currently writes parses pairs from .in and writes into .out
              * ***/
 
-            File file = new File("10.in");
+            File file = new File("50.in");
             String name = file.getName().replaceFirst("[.][^.]+$", "");
 
             ArrayList<String> lines = read(file);
