@@ -37,19 +37,23 @@ public class randOut{
                     for (int t = 1; t < rooms.get(j).size(); t++) { //calculate stress and happiness added
                         //double[] first = new double[]{order.get(i), rooms.get(j).get(t)};
                         //double[] second = new double[]{rooms.get(j).get(t), order.get(i)};
-                        //double[] stressHappy = new double[2];
-                        String first = order.get(i).toString() + " " + rooms.get(j).get(t).toString();
-                        String second = rooms.get(j).get(t).toString() + " " + order.get(i).toString();
-                        ArrayList<List<Float>> stressHappy = new ArrayList<>();
+                        double[] stressHappy = new double[2];
+                        //String first = order.get(i).toString() + " " + rooms.get(j).get(t).toString();
+                        //String second = rooms.get(j).get(t).toString() + " " + order.get(i).toString();
+                        int first = pairRep(order.get(i), rooms.get(j).get(t));
+                        int second = pairRep(rooms.get(j).get(t), order.get(i));
+                        //ArrayList<List<Float>> stressHappy = new ArrayList<>();
                         if (pairs.containsKey(first)) {
-                            //stressHappy = (double[]) pairs.get(first);
-                            stressHappy.add(pairs.get(first));
+                            stressHappy = (double[]) pairs.get(first);
+                            //stressHappy.add(pairs.get(first));
                         } else {
-                            //stressHappy = (double[]) pairs.get(second);
-                            stressHappy.add(pairs.get(second));
+                            stressHappy = (double[]) pairs.get(second);
+                            //stressHappy.add(pairs.get(second));
                         }
-                        currStress += stressHappy.get(0).get(0);
-                        currHappy += stressHappy.get(0).get(1);
+                        //currStress += stressHappy.get(0).get(0);
+                        //currHappy += stressHappy.get(0).get(1);
+                        currStress += stressHappy[0];
+                        currHappy += stressHappy[1];
                     }
                 }
                 if (currHappy > hMax && level.get(j) + currStress <= stress) {
@@ -69,6 +73,30 @@ public class randOut{
         return totalHappiness;
     }
 
+
+    // elem1 = 10, elem2 = 27 -> key = 100027
+    public HashMap<Integer, double[]> hash(ArrayList<ArrayList<Integer>> input) {
+        HashMap<Integer, double[]> map = new HashMap<>();
+        double[] sh = new double[2];
+        for (int i = 0; i < input.size(); i++) {
+            int elem1 = input.get(i).get(0);
+            int elem2 = input.get(i).get(1);
+            int stress = input.get(i).get(2);
+            int happy = input.get(i).get(3);
+            sh[0] = stress;
+            sh[1] = happy;
+            map.put(pairRep(elem1, elem2), sh);
+        }
+        return map;
+    }
+
+    // represents elem pairs as: elem1 = 10, elem2 = 27 -> key = 100027
+    public int pairRep(int elem1, int elem2) {
+        String a = "";
+        String e1 = Integer.toString(elem1);
+        String e2 = Integer.toString(elem2);
+        return Integer.parseInt(elem1 + "00" + elem2);
+    }
 
 
     public static ArrayList<Integer> shuffle(int n) {
