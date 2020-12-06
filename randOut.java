@@ -61,8 +61,7 @@ public class randOut{
              level.put(addRoom, addStress);
              totalHappiness += hMax;
          }
-
-
+         persist(rooms);
          return totalHappiness;
      }
      
