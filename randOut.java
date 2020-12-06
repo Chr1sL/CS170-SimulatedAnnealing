@@ -9,7 +9,7 @@ public class randOut{
     }
 
     // failure, return -1
-    public static double s(double smax, int n, HashMap<String, List<Float>> pairs) {
+    public static double s(double smax, int n, HashMap<Integer, double[]> pairs) {
         ArrayList<Integer> order = shuffle(n); // random ordering of elems
         ArrayList<ArrayList<Integer>> rooms = new ArrayList<>(); // breakout rooms
         HashMap<Integer, Double> level = new HashMap<>(); //maps rooms->stress
@@ -75,7 +75,7 @@ public class randOut{
 
 
     // elem1 = 10, elem2 = 27 -> key = 100027
-    public HashMap<Integer, double[]> hash(ArrayList<ArrayList<Integer>> input) {
+    public static HashMap<Integer, double[]> hash(ArrayList<ArrayList<Integer>> input) {
         HashMap<Integer, double[]> map = new HashMap<>();
         double[] sh = new double[2];
         for (int i = 0; i < input.size(); i++) {
@@ -91,7 +91,7 @@ public class randOut{
     }
 
     // represents elem pairs as: elem1 = 10, elem2 = 27 -> key = 100027
-    public int pairRep(int elem1, int elem2) {
+    public static int pairRep(int elem1, int elem2) {
         String a = "";
         String e1 = Integer.toString(elem1);
         String e2 = Integer.toString(elem2);
