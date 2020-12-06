@@ -2,6 +2,8 @@ import java.util.*;
 
 public class randOut{
 
+     public static HashMap _pairings;
+
      public static void main(String []args){
         
      }
@@ -26,8 +28,8 @@ public class randOut{
          
          rooms.get(0).add(0);
          for (int i = 1; i < n; i++) { // iterate thru all elems
-             double hMax = 0;
-             double addStress = 0;
+             double hMax = -1;
+             double addStress = -1;
              int addRoom = -1;
              for (int j = 0; j < k; j++) { // iterate thru all rooms
                 double currHappy = 0;
@@ -52,13 +54,15 @@ public class randOut{
                     addStress = level.get(j) + currStress;
                 }
              }
-             if (addRoom ==  -1) {
+             if (addRoom == -1) {
                  return -1;
              }
              rooms.get(addRoom).add(i);
              level.put(addRoom, addStress);
              totalHappiness += hMax;
          }
+
+
          return totalHappiness;
      }
      
@@ -84,6 +88,16 @@ public class randOut{
         }
         Collections.shuffle(s);
         return s;
+     }
+
+     public void persist(ArrayList<ArrayList<Integer>> rooms) {
+        HashMap<Integer, Integer> pairs = new HashMap<>();
+        for (int i = 1; i < rooms.size(); i++) {
+            for (int j = 1; j < rooms.get(i).size(); j++) {
+                pairs.put(rooms.get(i).get(j), i);
+            }
+        }
+        _pairings = pairs;
      }
      
 }
