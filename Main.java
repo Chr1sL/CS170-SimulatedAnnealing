@@ -4,10 +4,7 @@ import java.io.FilenameFilter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 
 public class Main {
@@ -83,6 +80,21 @@ public class Main {
             }
         };
 
+    // key = [elem1, elem2], value = [stress, happiness]
+    public static HashMap hash(ArrayList<ArrayList<Float>> pairs) {
+        HashMap<Float[], Float[]> map = new HashMap<>();
+        Float[] p = new Float[2];
+        Float[] s = new Float[2];
+        for (int i = 0; i < pairs.size(); i++) {
+            p[0] = pairs.get(i).get(0); // first elem
+            p[1] = pairs.get(i).get(1); // second elem
+            s[0] = pairs.get(i).get(2); // stress
+            s[1] = pairs.get(i).get(3); // happiness
+            map.put(p, s); // maps pairs to stress and happiness vals
+        }
+        return map;
+    }
+
     /** Usage: java gitlet.Main ARGS, where ARGS contains
      *  <COMMAND> <OPERAND> .... */
     public static void main(String... args) {
@@ -95,13 +107,6 @@ public class Main {
         if (files == null) {
             return;
         } else {
-
-
-            /** THIS IS JUST A TEST:
-             *  Test currently parses one file from input, then breaks
-             *  Also, the sort is out of order, but the loop does go through each file
-             * ***/
-
             for (File file : files) {
                 String name = file.getName().replaceFirst("[.][^.]+$", "");
 
@@ -119,20 +124,10 @@ public class Main {
                     finalInput.add(numLines);
                 }
 
-            /**
-             *  Run = placeholder name of class
-             *      at the moment, i assume that it will return an ArrayList<ArrayList<Float>>,
-             *      but feel free to change that to something else that is iterable (though, should probably keep
-             *      it a float since they're floats
-             *  finalInput = ArrayList<ArrayList<Float>> of pairings
-             *  number = # of students
-             *  max = max happiness
-             *  test.calc() = instance method name of actual program that will find output
-             */
+                HashMap inputHash = hash(finalInput);
+                ArrayList<ArrayList<Float>> newLines = randOut.compare(number, max, inputHash);
 
-//                Run test = new Run(finalInput, number, max);
-//                ArrayList<ArrayList<Float>> newLines = test.calc();
-//                write(name, newLine);
+//                write(name, newLines);
 
                 /** remove this when test done: **/
                 write(name, finalInput);

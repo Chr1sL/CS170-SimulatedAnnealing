@@ -66,20 +66,7 @@ public class randOut{
          return totalHappiness;
      }
      
-     // key = [elem1, elem2], value = [stress, happiness]
-     public HashMap hash(ArrayList<ArrayList<Double>> pairs) {
-        HashMap<double[], double[]> map = new HashMap<>();
-        double[] p = new double[2];
-        double[] s = new double[2];
-        for (int i = 0; i < pairs.size(); i++) {
-            p[0] = pairs.get(i).get(0); // first elem
-            p[1] = pairs.get(i).get(1); // second elem
-            s[0] = pairs.get(i).get(2); // stress
-            s[1] = pairs.get(i).get(3); // happiness
-            map.put(p, s); // maps pairs to stress and happiness vals
-        }
-        return map;
-     }
+
      
      public ArrayList shuffle(int n) {
         ArrayList<Integer> s = new ArrayList<>();
