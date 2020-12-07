@@ -54,7 +54,6 @@ public class randOut{
                         }
                         currStress += stressHappy[0];
                         currHappy += stressHappy[1];
-
                     }
                 }
                 if (currHappy > hMax && level.get(j) + currStress <= stress) {
@@ -70,6 +69,7 @@ public class randOut{
             level.put(addRoom, addStress);
             totalHappiness += hMax;
         }
+
         persist(rooms);
         return totalHappiness;
     }
@@ -125,7 +125,7 @@ public class randOut{
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
-        int change = 20;
+        int change = 5;
 
         while(change != 0) {
             double temp_two = -1;
@@ -135,7 +135,7 @@ public class randOut{
             if (temp_two > temp) {
                 temp = temp_two;
                 optimal = _pairings;
-                change = 20;
+                change = 5;
             } else {
                 change--;
             }
