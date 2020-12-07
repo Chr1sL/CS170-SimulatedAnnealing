@@ -160,7 +160,7 @@ public class Main {
                 }
 
                 HashMap<Integer, double[]> inputHash = randOut.hash(finalInput);
-                ArrayList<ArrayList<Integer>> newLines = randOut.compare(number, max, inputHash);
+                ArrayList<ArrayList<Integer>> newLines = randOut.compare(max, number, inputHash);
 
                 write(name, newLines);
 

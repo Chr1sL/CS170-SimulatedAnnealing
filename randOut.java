@@ -152,6 +152,7 @@ public class randOut{
         return result;
     }
 
+/*
     public static ArrayList randomK(int n) {
         ArrayList<Integer> s = new ArrayList<>();
         for (int i = 1; i < n; i++) {
@@ -164,7 +165,7 @@ public class randOut{
         return s;
     }
 
-/*
+
     public static int randomizer(int n) {
         if (n == 10) {
             Collections.shuffle(_ten);
