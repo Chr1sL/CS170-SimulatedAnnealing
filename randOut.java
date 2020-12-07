@@ -4,7 +4,7 @@ public class randOut{
 
     public static HashMap<Integer, Integer> _pairings;
 
-    public static int _k_rooms;
+    public static int _k_rooms = 5;
 
     public static void main(String []args){
 
@@ -134,12 +134,12 @@ public class randOut{
      * Loops through random inputs and finds the most optimal happiness.
      */
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
-        _k_rooms = Math.round(n/3);
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
-        int change = (int) Math.round((factorial(n)/(factorial(_k_rooms)*factorial(n - _k_rooms)))*0.9);
+        int change = (int) (n*_k_rooms)^25;
+        //Math.ceil((factorial(n)/(factorial(_k_rooms)*factorial(n - _k_rooms)))*0.9);
 
-            while(change != 0) {
+        while(change != 0) {
             double temp_two = -1;
             while (temp_two == -1) {
                 temp_two = s(smax, n, pairs);
@@ -166,10 +166,11 @@ public class randOut{
         return result;
     }
 
-    public static int factorial(int num) {
-        int result = 1;
+    public static long factorial(long num) {
+        long result = 1;
         int count = 1;
         while (count <= num) {
+//            System.out.println(result);
             result *= count;
             count++;
         }
