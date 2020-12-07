@@ -139,6 +139,7 @@ public class Main {
         } else {
             for (File file : files) {
                 String name = file.getName().replaceFirst("[.][^.]+$", "");
+                System.out.println(name);
 
                 ArrayList<String> lines = read(file);
                 int number = Integer.parseInt(lines.remove(0).replaceAll(" ", ""));
@@ -146,14 +147,16 @@ public class Main {
 
                 ArrayList<ArrayList<Float>> finalInput = new ArrayList<ArrayList<Float>>();
                 for (String line: lines) {
-                    ArrayList<Float> numLines = new ArrayList<Float>();
-                    String[] liner = line.split(" ");
-                    for (String num: liner){
-                        // System.out.print(Float.parseFloat(num) + " ");
-                        numLines.add(Float.parseFloat(num));
+                    if (!line.isBlank()) {
+                        ArrayList<Float> numLines = new ArrayList<Float>();
+                        String[] liner = line.split(" ");
+                        for (String num : liner) {
+                            // System.out.print(Float.parseFloat(num) + " ");
+                            numLines.add(Float.parseFloat(num));
+                        }
+                        // System.out.println();
+                        finalInput.add(numLines);
                     }
-                    // System.out.println();
-                    finalInput.add(numLines);
                 }
 
                 HashMap<Integer, double[]> inputHash = randOut.hash(finalInput);
@@ -163,7 +166,7 @@ public class Main {
 
                 /** remove this when test done: **/
 //                write(name, finalInput);
-                break;
+//                break;
                 /*********************************/
             }
             return;
