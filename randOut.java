@@ -3,6 +3,9 @@ import java.util.*;
 public class randOut{
 
     public static HashMap<Integer, Integer> _pairings;
+    public static ArrayList<Integer> _ten;
+    public static ArrayList<Integer> _twenty;
+    public static ArrayList<Integer> _fif;
 
     public static void main(String []args){
 
@@ -18,7 +21,8 @@ public class randOut{
         HashMap<Integer, Double> level = new HashMap<>(); //maps rooms->stress
         int totalHappiness = 0;
 
-        int k = (int)(Math.random() * n) + 1; // / (int) 1
+        //int k = randomizer(n);
+        int k = (int)(Math.random() * n / 2) + 1; // / (int) 1
         double stress = smax / (double) k;
 
         for (int i = 0; i < k; i++) {
@@ -138,6 +142,9 @@ public class randOut{
      * Loops through random inputs and finds the most optimal happiness.
      */
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
+        //_ten = randomK(10);
+        //_twenty = randomK(20);
+        //_fif = randomK(50);
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
         //System.out.println(_pairings.get(n - 1));
@@ -169,6 +176,31 @@ public class randOut{
             result.add(pair);
         }
         return result;
+    }
+
+    public static ArrayList randomK(int n) {
+        ArrayList<Integer> s = new ArrayList<>();
+        for (int i = 1; i < n; i++) {
+            s.add(i);
+        }
+        for (int i = 1; i < n / 2; i++) {
+            s.add(i);
+            s.add(i);
+        }
+        return s;
+    }
+
+    public static int randomizer(int n) {
+        if (n == 10) {
+            Collections.shuffle(_ten);
+            return _ten.get(0);
+        } if (n == 20) {
+            Collections.shuffle(_twenty);
+            return _twenty.get(0);
+        } else {
+            Collections.shuffle(_fif);
+            return _fif.get(0);
+        }
     }
 //    public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<List<Integer>, List<Float>> pairs) {
 //        double temp = s(smax, n, pairs);
