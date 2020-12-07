@@ -163,7 +163,7 @@ public class Main {
 
                 /** remove this when test done: **/
 //                write(name, finalInput);
-                break;
+//                break;
                 /*********************************/
             }
             return;

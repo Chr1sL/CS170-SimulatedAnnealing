@@ -48,10 +48,14 @@ public class randOut{
                         //ArrayList<List<Float>> stressHappy = new ArrayList<>();
                         if (pairs.containsKey(first)) {
                             stressHappy = (double[]) pairs.get(first);
+//                            stressHappy[0] = pairs.get(first)[0];
+//                            stressHappy[1] = pairs.get(first)[1];
                             //stressHappy.add(pairs.get(first));
-                        } else {
+                        } else if (pairs.containsKey(second)){
                             // System.out.println(second);
                             stressHappy = (double[]) pairs.get(second);
+//                            stressHappy[0] = pairs.get(second)[0];
+//                            stressHappy[1] = pairs.get(second)[1];
                             //stressHappy.add(pairs.get(second));
                         }
                         //currStress += stressHappy.get(0).get(0);
