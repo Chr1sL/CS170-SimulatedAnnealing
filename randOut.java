@@ -166,7 +166,7 @@ public class randOut{
         Collection<Integer> value = optimal.values(); //values
         ArrayList<Integer> values = new ArrayList<> (value);
         ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>> ();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < keys.size(); i++) {
             ArrayList<Integer> pair = new ArrayList<>();
             pair.add(keys.get(i));
             pair.add(values.get(i));
