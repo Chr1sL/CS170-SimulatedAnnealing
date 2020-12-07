@@ -4,6 +4,8 @@ public class randOut{
 
     public static HashMap<Integer, Integer> _pairings;
 
+    public static Integer _k_rooms;
+
     public static void main(String []args){
 
     }
@@ -117,6 +119,7 @@ public class randOut{
             }
         }
         _pairings = pairs;
+        _k_rooms = rooms.size();
     }
 
     /**
@@ -125,9 +128,9 @@ public class randOut{
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
-        int change = 20;
+        int change = (int) Math.round((factorial(n)/(factorial(_k_rooms)*factorial(n - _k_rooms)))*0.9);
 
-        while(change != 0) {
+            while(change != 0) {
             double temp_two = -1;
             while (temp_two == -1) {
                 temp_two = s(smax, n, pairs);
@@ -150,6 +153,17 @@ public class randOut{
             pair.add(keys.get(i));
             pair.add(values.get(i));
             result.add(pair);
+        }
+        return result;
+    }
+
+    public static int factorial(int n) {
+        int result = 1;
+
+        int count = 1;
+        while (count <= n) {
+            result *= count;
+            count++;
         }
         return result;
     }
