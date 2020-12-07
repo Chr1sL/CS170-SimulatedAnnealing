@@ -48,11 +48,13 @@ public class randOut{
 
                         if (pairs.containsKey(first)) {
                             stressHappy = (double[]) pairs.get(first);
+
                         } else if (pairs.containsKey(second)){
                             stressHappy = (double[]) pairs.get(second);
                         }
                         currStress += stressHappy[0];
                         currHappy += stressHappy[1];
+
                     }
                 }
                 if (currHappy > hMax && level.get(j) + currStress <= stress) {
