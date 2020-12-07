@@ -138,6 +138,7 @@ public class Main {
             return;
         } else {
             for (File file : files) {
+                file = new File("inputs/small-209.in");
                 String name = file.getName().replaceFirst("[.][^.]+$", "");
                 System.out.println(name);
 
@@ -166,7 +167,7 @@ public class Main {
 
                 /** remove this when test done: **/
 //                write(name, finalInput);
-//                break;
+                break;
                 /*********************************/
             }
             return;

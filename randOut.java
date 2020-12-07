@@ -35,30 +35,35 @@ public class randOut{
         }
 
         rooms.get(0).add(order.get(0));
-        for (int i = 1; i < n; i++) { // iterate thru all elems
+        for (int i = k; i < n; i++) { // iterate thru all elems
             double hMax = -1;
             double addStress = -1;
             int addRoom = -1;
-            for (int j = 0; j < k; j++) { // iterate thru all rooms
+            ArrayList<Integer> choice = shuffle(k);
+            for (int j: choice) { // iterate thru all rooms
                 double currHappy = 0;
                 double currStress = 0;
                 if (rooms.get(j).size() > 1) {
-                    for (int t = 1; t < rooms.get(j).size(); t++) { //calculate stress and happiness added
+                    int size = rooms.get(j).size();
+                    for (int t = 1; t < size; t++) { //calculate stress and happiness added
                         double[] stressHappy = new double[2];
                         int first = pairRep(order.get(i), rooms.get(j).get(t));
                         int second = pairRep(rooms.get(j).get(t), order.get(i));
 
                         if (pairs.containsKey(first)) {
                             stressHappy = (double[]) pairs.get(first);
+                            currHappy += stressHappy[0];
+                            currStress += stressHappy[1];
 
                         } else if (pairs.containsKey(second)){
                             stressHappy = (double[]) pairs.get(second);
+                            currHappy += stressHappy[0];
+                            currStress += stressHappy[1];
                         }
-                        currHappy += stressHappy[0];
-                        currStress += stressHappy[1];
                     }
                 }
-                if (currHappy > hMax && level.get(j) + currStress <= stress) {
+//                if (currHappy > hMax && level.get(j) + currStress <= stress) {
+                if (level.get(j) + currStress <= stress) {
                     hMax = currHappy;
                     addRoom = j;
                     addStress = level.get(j) + currStress;
