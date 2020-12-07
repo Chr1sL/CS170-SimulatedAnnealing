@@ -55,17 +55,19 @@ public class randOut{
 //                            stressHappy[0] = pairs.get(first)[0];
 //                            stressHappy[1] = pairs.get(first)[1];
                             //stressHappy.add(pairs.get(first));
+                            currStress += stressHappy[0];
+                            currHappy += stressHappy[1];
                         } else if (pairs.containsKey(second)){
                             // System.out.println(second);
                             stressHappy = (double[]) pairs.get(second);
 //                            stressHappy[0] = pairs.get(second)[0];
 //                            stressHappy[1] = pairs.get(second)[1];
                             //stressHappy.add(pairs.get(second));
+                            currStress += stressHappy[0];
+                            currHappy += stressHappy[1];
                         }
                         //currStress += stressHappy.get(0).get(0);
                         //currHappy += stressHappy.get(0).get(1);
-                        currStress += stressHappy[0];
-                        currHappy += stressHappy[1];
                     }
                 }
                 if (currHappy > hMax && level.get(j) + currStress <= stress) {
