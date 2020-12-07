@@ -51,14 +51,14 @@ public class randOut{
                         if (pairs.containsKey(first)) {
                             stressHappy = (double[]) pairs.get(first);
 
-                        } else if (pairs.containsKey(second)){
+                        } else {
                             stressHappy = (double[]) pairs.get(second);
                         }
                         currHappy += stressHappy[0];
                         currStress += stressHappy[1];
                     }
                 }
-                if (currHappy > hMax && level.get(j) + currStress <= stress) {
+                if ((currHappy > hMax) && (level.get(j) + currStress <= stress)) {
                     hMax = currHappy;
                     addRoom = j;
                     addStress = level.get(j) + currStress;
@@ -71,14 +71,14 @@ public class randOut{
             level.put(addRoom, addStress);
             totalHappiness += hMax;
         }
-        /*
+        
 
         for (int i = 0; i < rooms.size(); i++) {
             if (stress < stressVal(pairs, rooms.get(i))) {
                 return -1;
             }
         }
-        */
+        
 
         persist(rooms);
         return totalHappiness;
@@ -188,7 +188,7 @@ public class randOut{
                 } else {
                     sh = map.get(pairRep(rooms.get(j), rooms.get(i)));
                 }
-                stress += sh[0];
+                stress += sh[1];
             }
         }
         return stress;
