@@ -4,8 +4,11 @@ public class randOut{
 
     public static HashMap<Integer, Integer> _pairings;
 
+<<<<<<< HEAD
     public static int _k_rooms = 5;
 
+=======
+>>>>>>> parent of 3712a8c... rand
     public static void main(String []args){
 
     }
@@ -60,6 +63,11 @@ public class randOut{
                             currHappy += stressHappy[0];
                             currStress += stressHappy[1];
                         }
+<<<<<<< HEAD
+=======
+                        currStress += stressHappy[0];
+                        currHappy += stressHappy[1];
+>>>>>>> parent of 3712a8c... rand
                     }
                 }
 //                if (currHappy > hMax && level.get(j) + currStress <= stress) {
@@ -76,14 +84,6 @@ public class randOut{
             level.put(addRoom, addStress);
             totalHappiness += hMax;
         }
-        /*
-
-        for (int i = 0; i < rooms.size(); i++) {
-            if (stress < stressVal(pairs, rooms.get(i))) {
-                return -1;
-            }
-        }
-        */
 
         persist(rooms);
         return totalHappiness;
@@ -97,10 +97,10 @@ public class randOut{
         for (int i = 0; i < input.size(); i++) {
             int elem1 = (Math.round(input.get(i).get(0)));
             int elem2 = (Math.round(input.get(i).get(1)));
-            double happy = (double) input.get(i).get(2);
-            double stress = (double) input.get(i).get(3);
-            sh[0] = happy;
-            sh[1] = stress;
+            double stress = (double) input.get(i).get(2);
+            double happy = (double) input.get(i).get(3);
+            sh[0] = stress;
+            sh[1] = happy;
             map.put(pairRep(elem1, elem2), sh);
         }
         return map;
@@ -132,7 +132,6 @@ public class randOut{
             }
         }
         _pairings = pairs;
-        _k_rooms = rooms.size();
     }
 
     /**
@@ -141,8 +140,12 @@ public class randOut{
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
+<<<<<<< HEAD
         int change = (int) (n*_k_rooms)^40;
         //Math.ceil((factorial(n)/(factorial(_k_rooms)*factorial(n - _k_rooms)))*0.9);
+=======
+        int change = 5;
+>>>>>>> parent of 3712a8c... rand
 
         while(change != 0) {
             double temp_two = -1;
@@ -152,7 +155,11 @@ public class randOut{
             if (temp_two > temp) {
                 temp = temp_two;
                 optimal = _pairings;
+<<<<<<< HEAD
                 change = (n*_k_rooms)^40;
+=======
+                change = 5;
+>>>>>>> parent of 3712a8c... rand
             } else {
                 change--;
             }
@@ -172,6 +179,7 @@ public class randOut{
         return result;
     }
 
+<<<<<<< HEAD
     public static long factorial(long num) {
         long result = 1;
         int count = 1;
@@ -198,6 +206,8 @@ public class randOut{
         }
         return stress;
     }
+=======
+>>>>>>> parent of 3712a8c... rand
 /*
     public static ArrayList randomK(int n) {
         ArrayList<Integer> s = new ArrayList<>();
