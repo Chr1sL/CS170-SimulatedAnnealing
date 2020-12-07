@@ -136,7 +136,7 @@ public class randOut{
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
-        int change = (int) (n*_k_rooms)^25;
+        int change = (int) (n*_k_rooms)^40;
         //Math.ceil((factorial(n)/(factorial(_k_rooms)*factorial(n - _k_rooms)))*0.9);
 
         while(change != 0) {
@@ -147,7 +147,7 @@ public class randOut{
             if (temp_two > temp) {
                 temp = temp_two;
                 optimal = _pairings;
-                change = 100;
+                change = (n*_k_rooms)^40;
             } else {
                 change--;
             }
@@ -157,7 +157,8 @@ public class randOut{
         Collection<Integer> value = optimal.values(); //values
         ArrayList<Integer> values = new ArrayList<> (value);
         ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>> ();
-        for (int i = 0; i < keys.size(); i++) {
+        //s is outputting more than n
+        for (int i = 0; i < n; i++) {
             ArrayList<Integer> pair = new ArrayList<>();
             pair.add(keys.get(i));
             pair.add(values.get(i));
