@@ -17,7 +17,7 @@ public class Main {
             throw new IllegalArgumentException("must be a normal file");
         }
         try {
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("inputs/" + file.getName())));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("inputs4/" + file.getName())));
             return lines;
         }
         catch (IOException e) {
@@ -76,7 +76,7 @@ public class Main {
             new FilenameFilter() {
                 @Override
                 public boolean accept(File dir, String name) {
-                    return new File(dir, name).isFile();
+                    return new File(dir, name).isFile() && dir.getName().lastIndexOf(".") != 0;
                 }
             };
 
@@ -128,7 +128,7 @@ public class Main {
     /** Usage: java gitlet.Main ARGS, where ARGS contains
      *  <COMMAND> <OPERAND> .... */
     public static void main(String... args) {
-        File inputs = new File("inputs");
+        File inputs = new File("inputs4");
         if (!inputs.isDirectory()) {
             throw new IllegalArgumentException("inputs must be directory");
         }
@@ -138,6 +138,9 @@ public class Main {
             return;
         } else {
             for (File file : files) {
+                if (file.getName().lastIndexOf(".") == -1 || file.getName().lastIndexOf(".") == 0) {
+                    continue;
+                }
 //                file = new File("inputs/small-209.in");
                 String name = file.getName().replaceFirst("[.][^.]+$", "");
                 System.out.println(name);
@@ -166,7 +169,6 @@ public class Main {
 
                 HashMap<Integer, double[]> inputHash = randOut.hash(finalInput);
                 ArrayList<ArrayList<Integer>> newLines = randOut.compare(max, number, inputHash);
-
                 write(name, newLines);
 
                 /** remove this when test done: **/
