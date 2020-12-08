@@ -63,10 +63,8 @@ public class randOut{
 
                     }
                 }
-/*
                 if ((currHappy > hMax) && (level.get(j) + currStress <= stress)) {
-*/
-                if (level.get(j) + currStress <= stress) {
+//                if (level.get(j) + currStress <= stress) {
                     
                     hMax = currHappy;
                     addRoom = j;
