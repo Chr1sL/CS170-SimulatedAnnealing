@@ -17,7 +17,10 @@ public class Main {
             throw new IllegalArgumentException("must be a normal file");
         }
         try {
+
             ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("inputs2/" + file.getName())));
+
+
             return lines;
         }
         catch (IOException e) {
@@ -128,7 +131,9 @@ public class Main {
     /** Usage: java gitlet.Main ARGS, where ARGS contains
      *  <COMMAND> <OPERAND> .... */
     public static void main(String... args) {
+
         File inputs = new File("inputs2");
+
         if (!inputs.isDirectory()) {
             throw new IllegalArgumentException("inputs must be directory");
         }
