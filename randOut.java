@@ -4,8 +4,6 @@ public class randOut{
 
     public static HashMap<Integer, Integer> _pairings;
 
-    public static int _k_rooms;
-
     public static void main(String []args){
 
     }
@@ -18,6 +16,7 @@ public class randOut{
         ArrayList<Integer> order = shuffle(n); // random ordering of elems
         ArrayList<ArrayList<Integer>> rooms = new ArrayList<>(); // breakout rooms
         HashMap<Integer, Double> level = new HashMap<>(); //maps rooms->stress
+        HashMap<Integer, Double> hap = new HashMap<>(); //maps rooms->stress
         int totalHappiness = 0;
 
         int k = n + 1;
@@ -34,12 +33,17 @@ public class randOut{
             level.put(i, 0.0);
         }
 
-        rooms.get(0).add(order.get(0));
-        for (int i = 1; i < n; i++) { // iterate thru all elems
+        for (int i = 0; i < k; i++) {
+            rooms.get(i).add(order.get(i));
+        }
+
+
+        for (int i = k; i < n; i++) { // iterate thru all elems
             double hMax = -1;
             double addStress = -1;
             int addRoom = -1;
-            for (int j = 0; j < k; j++) { // iterate thru all rooms
+            ArrayList<Integer> order2 = shuffle(k);
+            for (int j: order2) { // iterate thru all rooms
                 double currHappy = 0;
                 double currStress = 0;
                 if (rooms.get(j).size() > 1) {
@@ -54,14 +58,20 @@ public class randOut{
                         } else {
                             stressHappy = (double[]) pairs.get(second);
                         }
-                        currHappy += stressHappy[0];
                         currStress += stressHappy[1];
+                        currHappy += stressHappy[0];
+
                     }
                 }
+/*
                 if ((currHappy > hMax) && (level.get(j) + currStress <= stress)) {
+*/
+                if (level.get(j) + currStress <= stress) {
+                    
                     hMax = currHappy;
                     addRoom = j;
                     addStress = level.get(j) + currStress;
+                    break;
                 }
             }
             if (addRoom == -1) {
@@ -71,6 +81,7 @@ public class randOut{
             level.put(addRoom, addStress);
             totalHappiness += hMax;
         }
+/*
         
 
         for (int i = 0; i < rooms.size(); i++) {
@@ -80,6 +91,7 @@ public class randOut{
         }
         
 
+*/
         persist(rooms);
         return totalHappiness;
     }
@@ -92,10 +104,10 @@ public class randOut{
         for (int i = 0; i < input.size(); i++) {
             int elem1 = (Math.round(input.get(i).get(0)));
             int elem2 = (Math.round(input.get(i).get(1)));
-            double happy = (double) input.get(i).get(2);
-            double stress = (double) input.get(i).get(3);
-            sh[0] = happy;
-            sh[1] = stress;
+            double stress = (double) input.get(i).get(2);
+            double happy = (double) input.get(i).get(3);
+            sh[0] = stress;
+            sh[1] = happy;
             map.put(pairRep(elem1, elem2), sh);
         }
         return map;
@@ -127,19 +139,17 @@ public class randOut{
             }
         }
         _pairings = pairs;
-        _k_rooms = rooms.size();
     }
 
     /**
      * Loops through random inputs and finds the most optimal happiness.
      */
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
-        _k_rooms = Math.round(n/3);
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
-        int change = (int) Math.round((factorial(n)/(factorial(_k_rooms)*factorial(n - _k_rooms)))*0.9);
+        long change = Math.round(Math.pow(n, 4));
 
-            while(change != 0) {
+        while(change != 0) {
             double temp_two = -1;
             while (temp_two == -1) {
                 temp_two = s(smax, n, pairs);
@@ -147,7 +157,7 @@ public class randOut{
             if (temp_two > temp) {
                 temp = temp_two;
                 optimal = _pairings;
-                change = 100;
+                change = Math.round(Math.pow(n, 4));
             } else {
                 change--;
             }
@@ -166,6 +176,7 @@ public class randOut{
         return result;
     }
 
+/*
     public static int factorial(int num) {
         int result = 1;
         int count = 1;
@@ -191,6 +202,7 @@ public class randOut{
         }
         return stress;
     }
+*/
 /*
     public static ArrayList randomK(int n) {
         ArrayList<Integer> s = new ArrayList<>();
