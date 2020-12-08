@@ -138,9 +138,13 @@ public class Main {
             return;
         } else {
             for (File file : files) {
-                file = new File("inputs/small-209.in");
+//                file = new File("inputs/small-209.in");
                 String name = file.getName().replaceFirst("[.][^.]+$", "");
                 System.out.println(name);
+                File newefile = new File("Phase2_outputs/" + name + ".out");
+                if (newefile.isFile()){
+                    continue;
+                }
 
                 ArrayList<String> lines = read(file);
                 int number = Integer.parseInt(lines.remove(0).replaceAll(" ", ""));
@@ -167,7 +171,7 @@ public class Main {
 
                 /** remove this when test done: **/
 //                write(name, finalInput);
-                break;
+//                break;
                 /*********************************/
             }
             return;
