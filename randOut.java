@@ -145,7 +145,7 @@ public class randOut{
     public static ArrayList<ArrayList<Integer>> compare(double smax, int n, HashMap<Integer, double[]> pairs) {
         double temp = s(smax, n, pairs);
         HashMap<Integer, Integer> optimal = _pairings;
-        long change = Math.round(Math.pow(n, 4));
+        long change = Math.round(Math.pow(n, 6));
 
         while(change != 0) {
             double temp_two = -1;
@@ -155,7 +155,7 @@ public class randOut{
             if (temp_two > temp) {
                 temp = temp_two;
                 optimal = _pairings;
-                change = Math.round(Math.pow(n, 4));
+                change = Math.round(Math.pow(n, 6));
             } else {
                 change--;
             }
