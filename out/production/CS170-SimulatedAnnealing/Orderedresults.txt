@@ -1,0 +1,555 @@
+large-100: Invalid submission
+large-101: 0.0
+large-102: Invalid submission
+large-103: Invalid submission
+large-105: 0.0
+large-106: Invalid submission
+large-107: 0.0
+large-108: 0.0
+large-109: 0.0
+large-10: 0.0
+large-110: 0.0
+large-111: Invalid submission
+large-112: 0.0
+large-113: 0.0
+large-114: Invalid submission
+large-115: 0.0
+large-116: Invalid submission
+large-117: Invalid submission
+large-118: 0.0
+large-119: Invalid submission
+large-11: Invalid submission
+large-120: Invalid submission
+large-121: 0.0
+large-123: 0.0
+large-125: 0.0
+large-126: 0.0
+large-128: 0.0
+large-129: 410.0
+large-12: 0.0
+large-130: 0.0
+large-131: 0.0
+large-132: 0.0
+large-133: Invalid submission
+large-136: Invalid submission
+large-137: 0.0
+large-139: Invalid submission
+large-13: Invalid submission
+large-140: Invalid submission
+large-141: 0.0
+large-143: Invalid submission
+large-144: Invalid submission
+large-145: Invalid submission
+large-146: Invalid submission
+large-147: Invalid submission
+large-148: 0.0
+large-149: 0.0
+large-14: 0.0
+large-150: Invalid submission
+large-151: 0.0
+large-152: Invalid submission
+large-153: Invalid submission
+large-154: Invalid submission
+large-155: 0.0
+large-156: Invalid submission
+large-158: Invalid submission
+large-159: 0.0
+large-15: 0.0
+large-160: Invalid submission
+large-161: Invalid submission
+large-162: Invalid submission
+large-163: Invalid submission
+large-164: Invalid submission
+large-165: Invalid submission
+large-166: 0.0
+large-167: Invalid submission
+large-169: 0.0
+large-170: Invalid submission
+large-171: Invalid submission
+large-172: 0.0
+large-173: Invalid submission
+large-174: 0.0
+large-175: 0.0
+large-176: Invalid submission
+large-177: 0.0
+large-178: 0.0
+large-179: Invalid submission
+large-17: 0.0
+large-180: Invalid submission
+large-181: 0.0
+large-182: 0.0
+large-183: Invalid submission
+large-184: 0.0
+large-185: 0.0
+large-187: 0.0
+large-188: Invalid submission
+large-189: Invalid submission
+large-18: Invalid submission
+large-191: 0.0
+large-192: 0.0
+large-193: Invalid submission
+large-194: Invalid submission
+large-195: Invalid submission
+large-196: 0.0
+large-197: 0.0
+large-199: Invalid submission
+large-19: 0.0
+large-1: Invalid submission
+large-200: Invalid submission
+large-202: Invalid submission
+large-203: 0.0
+large-204: Invalid submission
+large-205: Invalid submission
+large-206: Invalid submission
+large-207: Invalid submission
+large-209: Invalid submission
+large-20: Invalid submission
+large-210: 0.0
+large-211: Invalid submission
+large-212: Invalid submission
+large-214: Invalid submission
+large-216: Invalid submission
+large-217: Invalid submission
+large-21: Invalid submission
+large-220: 0.0
+large-222: Invalid submission
+large-223: Invalid submission
+large-225: Invalid submission
+large-227: Invalid submission
+large-229: Invalid submission
+large-22: Invalid submission
+large-230: Invalid submission
+large-231: 0.0
+large-232: 0.0
+large-233: 0.0
+large-234: Invalid submission
+large-236: Invalid submission
+large-237: Invalid submission
+large-239: Invalid submission
+large-23: Invalid submission
+large-240: 0.0
+large-241: Invalid submission
+large-242: Invalid submission
+large-24: 0.0
+large-25: Invalid submission
+large-26: Invalid submission
+large-27: Invalid submission
+large-28: Invalid submission
+large-2: 0.0
+large-31: Invalid submission
+large-34: 0.0
+large-35: Invalid submission
+large-38: 0.0
+large-39: 0.0
+large-3: 0.0
+large-40: Invalid submission
+large-41: Invalid submission
+large-42: Invalid submission
+large-44: Invalid submission
+large-45: Invalid submission
+large-46: Invalid submission
+large-47: Invalid submission
+large-49: Invalid submission
+large-4: Invalid submission
+large-50: 0.0
+large-51: 0.0
+large-52: Invalid submission
+large-53: Invalid submission
+large-54: 0.0
+large-56: 0.0
+large-57: Invalid submission
+large-58: 0.0
+large-60: Invalid submission
+large-61: Invalid submission
+large-62: Invalid submission
+large-63: 0.0
+large-64: 0.0
+large-65: 0.0
+large-66: 0.0
+large-67: 0.0
+large-68: 0.0
+large-69: Invalid submission
+large-6: Invalid submission
+large-70: Invalid submission
+large-71: Invalid submission
+large-73: 0.0
+large-74: 0.0
+large-75: Invalid submission
+large-77: 0.0
+large-79: Invalid submission
+large-7: 0.0
+large-81: 0.0
+large-82: 2440.0
+large-83: Invalid submission
+large-84: 0.0
+large-85: Invalid submission
+large-86: Invalid submission
+large-87: 0.0
+large-88: Invalid submission
+large-89: 0.0
+large-8: 0.0
+large-90: 0.0
+large-92: Invalid submission
+large-94: Invalid submission
+large-95: Invalid submission
+large-97: 0.0
+large-98: Invalid submission
+medium-100: 0.0
+medium-101: Invalid submission
+medium-102: Invalid submission
+medium-103: 0.0
+medium-105: 0.0
+medium-106: Invalid submission
+medium-107: Invalid submission
+medium-108: Invalid submission
+medium-109: 0.0
+medium-10: Invalid submission
+medium-110: 0.0
+medium-111: 0.0
+medium-112: 0.0
+medium-113: 0.0
+medium-114: Invalid submission
+medium-115: 0.0
+medium-118: 0.0
+medium-119: Invalid submission
+medium-11: Invalid submission
+medium-120: Invalid submission
+medium-121: 0.0
+medium-122: 0.0
+medium-123: 0.0
+medium-124: Invalid submission
+medium-125: 0.0
+medium-126: Invalid submission
+medium-128: 0.0
+medium-129: Invalid submission
+medium-12: 0.0
+medium-130: Invalid submission
+medium-131: 0.0
+medium-132: Invalid submission
+medium-133: Invalid submission
+medium-135: 0.0
+medium-136: Invalid submission
+medium-137: 0.0
+medium-138: Invalid submission
+medium-139: Invalid submission
+medium-13: Invalid submission
+medium-140: Invalid submission
+medium-141: Invalid submission
+medium-143: 0.0
+medium-145: Invalid submission
+medium-146: Invalid submission
+medium-147: 0.0
+medium-148: 60.0
+medium-14: 0.0
+medium-151: 0.0
+medium-153: Invalid submission
+medium-154: Invalid submission
+medium-155: 0.0
+medium-156: 0.0
+medium-157: 0.0
+medium-158: Invalid submission
+medium-159: 0.0
+medium-15: 0.0
+medium-160: Invalid submission
+medium-161: Invalid submission
+medium-163: 0.0
+medium-164: 0.0
+medium-165: Invalid submission
+medium-166: 0.0
+medium-167: 0.0
+medium-168: Invalid submission
+medium-169: 0.0
+medium-16: Invalid submission
+medium-170: Invalid submission
+medium-171: 0.06700000000000002
+medium-172: 0.0
+medium-173: Invalid submission
+medium-174: 0.0
+medium-175: 0.0
+medium-176: Invalid submission
+medium-177: Invalid submission
+medium-178: 0.0
+medium-180: Invalid submission
+medium-181: 0.0
+medium-182: 110.08399999999999
+medium-183: Invalid submission
+medium-184: 0.0
+medium-187: 0.0
+medium-189: Invalid submission
+medium-18: Invalid submission
+medium-191: 0.0
+medium-192: Invalid submission
+medium-193: 0.0
+medium-194: Invalid submission
+medium-195: Invalid submission
+medium-196: 0.0
+medium-199: Invalid submission
+medium-19: 0.0
+medium-1: Invalid submission
+medium-200: 0.0
+medium-202: Invalid submission
+medium-203: Invalid submission
+medium-204: 0.0
+medium-205: Invalid submission
+medium-206: 0.0
+medium-207: Invalid submission
+medium-208: 0.0
+medium-209: 30.0
+medium-20: 0.0
+medium-210: 0.0
+medium-211: Invalid submission
+medium-212: Invalid submission
+medium-214: 260.0
+medium-215: Invalid submission
+medium-217: 1830.0
+medium-218: Invalid submission
+medium-21: Invalid submission
+medium-222: Invalid submission
+medium-226: Invalid submission
+medium-228: 110.0
+medium-22: Invalid submission
+medium-230: 0.0
+medium-231: Invalid submission
+medium-233: 0.0
+medium-235: 30.0
+medium-236: 0.0
+medium-237: 0.0
+medium-239: Invalid submission
+medium-23: 0.0
+medium-240: 0.0
+medium-241: Invalid submission
+medium-24: Invalid submission
+medium-26: Invalid submission
+medium-28: Invalid submission
+medium-2: 0.0
+medium-31: Invalid submission
+medium-34: 0.0
+medium-35: Invalid submission
+medium-38: Invalid submission
+medium-39: Invalid submission
+medium-3: Invalid submission
+medium-40: Invalid submission
+medium-41: 0.0
+medium-42: Invalid submission
+medium-44: Invalid submission
+medium-46: 0.0
+medium-47: Invalid submission
+medium-48: 540.098
+medium-49: Invalid submission
+medium-4: Invalid submission
+medium-50: 0.0
+medium-51: Invalid submission
+medium-54: 0.0
+medium-56: 0.0
+medium-57: Invalid submission
+medium-58: 0.0
+medium-59: Invalid submission
+medium-5: Invalid submission
+medium-60: 0.0
+medium-61: Invalid submission
+medium-62: Invalid submission
+medium-63: 0.0
+medium-64: Invalid submission
+medium-65: Invalid submission
+medium-66: Invalid submission
+medium-67: Invalid submission
+medium-68: Invalid submission
+medium-69: Invalid submission
+medium-6: 0.0
+medium-70: 0.0
+medium-73: Invalid submission
+medium-74: 0.0
+medium-75: Invalid submission
+medium-76: 10.0
+medium-77: 0.0
+medium-79: Invalid submission
+medium-7: 0.0
+medium-80: Invalid submission
+medium-81: 0.0
+medium-84: 0.0
+medium-85: Invalid submission
+medium-86: 0.0
+medium-87: 0.0
+medium-88: Invalid submission
+medium-89: Invalid submission
+medium-8: Invalid submission
+medium-90: 0.0
+medium-91: Invalid submission
+medium-92: Invalid submission
+medium-93: Invalid submission
+medium-94: Invalid submission
+medium-97: 0.0
+medium-98: 0.0
+small-100: Invalid submission
+small-102: Invalid submission
+small-103: 0.0
+small-104: Invalid submission
+small-105: 0.0
+small-106: Invalid submission
+small-107: 0.0
+small-108: Invalid submission
+small-109: 0.0
+small-111: Invalid submission
+small-112: 0.0
+small-113: 0.0
+small-114: Invalid submission
+small-115: 0.0
+small-118: Invalid submission
+small-119: Invalid submission
+small-11: 0.0
+small-120: Invalid submission
+small-121: 0.0
+small-122: 40.0
+small-123: 0.0
+small-124: Invalid submission
+small-125: Invalid submission
+small-126: 0.0
+small-127: Invalid submission
+small-128: 0.0
+small-129: Invalid submission
+small-12: Invalid submission
+small-131: 0.0
+small-132: 0.0
+small-133: Invalid submission
+small-135: Invalid submission
+small-136: Invalid submission
+small-137: 0.0
+small-138: Invalid submission
+small-139: Invalid submission
+small-13: Invalid submission
+small-140: Invalid submission
+small-141: 0.0
+small-143: 0.0
+small-144: Invalid submission
+small-145: Invalid submission
+small-146: Invalid submission
+small-147: 0.0
+small-148: Invalid submission
+small-149: Invalid submission
+small-14: 0.0
+small-151: 0.0
+small-153: 0.0
+small-158: Invalid submission
+small-159: 0.0
+small-15: 0.0
+small-160: Invalid submission
+small-161: Invalid submission
+small-162: Invalid submission
+small-163: 0.0
+small-164: 0.0
+small-165: Invalid submission
+small-166: 0.0
+small-167: 0.0
+small-170: Invalid submission
+small-171: Invalid submission
+small-172: Invalid submission
+small-173: Invalid submission
+small-174: 0.0
+small-175: 0.0
+small-176: Invalid submission
+small-177: Invalid submission
+small-178: Invalid submission
+small-180: Invalid submission
+small-181: 0.0
+small-182: Invalid submission
+small-183: Invalid submission
+small-184: 0.0
+small-186: Invalid submission
+small-187: 0.0
+small-188: Invalid submission
+small-189: Invalid submission
+small-18: 0.0
+small-193: Invalid submission
+small-194: Invalid submission
+small-197: Invalid submission
+small-199: Invalid submission
+small-19: Invalid submission
+small-200: Invalid submission
+small-202: Invalid submission
+small-203: 0.0
+small-204: 0.0
+small-205: 0.0
+small-206: Invalid submission
+small-207: 0.0
+small-209: Invalid submission
+small-20: 0.0
+small-210: Invalid submission
+small-211: Invalid submission
+small-212: Invalid submission
+small-214: Invalid submission
+small-215: Invalid submission
+small-216: 170.0
+small-217: Invalid submission
+small-218: Invalid submission
+small-220: 0.0
+small-221: Invalid submission
+small-222: Invalid submission
+small-223: Invalid submission
+small-225: Invalid submission
+small-226: 0.0
+small-228: Invalid submission
+small-229: 0.0
+small-22: Invalid submission
+small-230: Invalid submission
+small-231: Invalid submission
+small-233: 0.0
+small-234: Invalid submission
+small-235: 20.0
+small-236: 0.0
+small-239: Invalid submission
+small-23: 0.0
+small-240: 0.0
+small-241: Invalid submission
+small-24: Invalid submission
+small-25: Invalid submission
+small-27: Invalid submission
+small-28: 0.0
+small-2: 0.0
+small-34: 0.0
+small-35: 0.0
+small-37: Invalid submission
+small-38: 0.0
+small-39: Invalid submission
+small-40: Invalid submission
+small-41: Invalid submission
+small-42: 0.0
+small-44: Invalid submission
+small-45: Invalid submission
+small-46: Invalid submission
+small-47: Invalid submission
+small-49: Invalid submission
+small-4: Invalid submission
+small-51: 0.0
+small-54: 0.0
+small-56: 0.0
+small-57: 0.0
+small-60: Invalid submission
+small-61: Invalid submission
+small-62: Invalid submission
+small-63: 0.0
+small-64: 0.0
+small-65: Invalid submission
+small-66: Invalid submission
+small-68: Invalid submission
+small-69: Invalid submission
+small-73: 0.0
+small-74: Invalid submission
+small-77: 0.0
+small-78: Invalid submission
+small-79: 90.0
+small-7: 0.0
+small-80: 0.0
+small-85: Invalid submission
+small-86: 0.0
+small-87: 0.0
+small-88: Invalid submission
+small-89: Invalid submission
+small-8: Invalid submission
+small-90: 0.0
+small-91: Invalid submission
+small-92: Invalid submission
+small-94: Invalid submission
+small-95: Invalid submission
+small-97: Invalid submission
+small-98: Invalid submission
+small-99: Invalid submission

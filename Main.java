@@ -18,7 +18,7 @@ public class Main {
         }
         try {
 
-            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("inputs2/" + file.getName())));
+            ArrayList<String> lines = new ArrayList<>(Files.readAllLines(Paths.get("redo/" + file.getName())));
 
 
             return lines;
@@ -33,7 +33,7 @@ public class Main {
      */
     static void write(String name, ArrayList<ArrayList<Integer>> content){
         try {
-            String filename= "Phase2_outputs/" + name + ".out";
+            String filename= "newInvalids/" + name + ".out";
             File myObj = new File(filename);
 
             if (myObj.createNewFile()) {
@@ -132,7 +132,7 @@ public class Main {
      *  <COMMAND> <OPERAND> .... */
     public static void main(String... args) {
 
-        File inputs = new File("inputs2");
+        File inputs = new File("redo");
 
         if (!inputs.isDirectory()) {
             throw new IllegalArgumentException("inputs must be directory");
@@ -149,7 +149,7 @@ public class Main {
 //                file = new File("inputs/small-209.in");
                 String name = file.getName().replaceFirst("[.][^.]+$", "");
                 System.out.println(name);
-                File newefile = new File("Phase2_outputs/" + name + ".out");
+                File newefile = new File("newInvalids/" + name + ".out");
                 if (newefile.isFile()){
                     continue;
                 }
@@ -173,7 +173,7 @@ public class Main {
                 }
 
                 HashMap<Integer, double[]> inputHash = randOut.hash(finalInput);
-                ArrayList<ArrayList<Integer>> newLines = randOut.compare(max, number, inputHash);
+                ArrayList<ArrayList<Integer>> newLines = randNew.compare(max, number, inputHash);
                 write(name, newLines);
 
                 /** remove this when test done: **/

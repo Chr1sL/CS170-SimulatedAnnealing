@@ -194,6 +194,98 @@ large-94: Invalid submission
 large-95: Invalid submission
 large-97: 0.0
 large-98: Invalid submission
+medium-100: 0.0
+medium-101: Invalid submission
+medium-102: Invalid submission
+medium-103: 0.0
+medium-105: 0.0
+medium-106: Invalid submission
+medium-107: Invalid submission
+medium-108: Invalid submission
+medium-109: 0.0
+medium-10: Invalid submission
+medium-110: 0.0
+medium-111: 0.0
+medium-112: 0.0
+medium-113: 0.0
+medium-114: Invalid submission
+medium-115: 0.0
+medium-118: 0.0
+medium-119: Invalid submission
+medium-11: Invalid submission
+medium-120: Invalid submission
+medium-121: 0.0
+medium-122: 0.0
+medium-123: 0.0
+medium-124: Invalid submission
+medium-125: 0.0
+medium-126: Invalid submission
+medium-128: 0.0
+medium-129: Invalid submission
+medium-12: 0.0
+medium-130: Invalid submission
+medium-131: 0.0
+medium-132: Invalid submission
+medium-133: Invalid submission
+medium-135: 0.0
+medium-136: Invalid submission
+medium-137: 0.0
+medium-138: Invalid submission
+medium-139: Invalid submission
+medium-13: Invalid submission
+medium-140: Invalid submission
+medium-141: Invalid submission
+medium-143: 0.0
+medium-145: Invalid submission
+medium-146: Invalid submission
+medium-147: 0.0
+medium-148: 60.0
+medium-14: 0.0
+medium-151: 0.0
+medium-153: Invalid submission
+medium-154: Invalid submission
+medium-155: 0.0
+medium-156: 0.0
+medium-157: 0.0
+medium-158: Invalid submission
+medium-159: 0.0
+medium-15: 0.0
+medium-160: Invalid submission
+medium-161: Invalid submission
+medium-163: 0.0
+medium-164: 0.0
+medium-165: Invalid submission
+medium-166: 0.0
+medium-167: 0.0
+medium-168: Invalid submission
+medium-169: 0.0
+medium-16: Invalid submission
+medium-170: Invalid submission
+medium-171: 0.06700000000000002
+medium-172: 0.0
+medium-173: Invalid submission
+medium-174: 0.0
+medium-175: 0.0
+medium-176: Invalid submission
+medium-177: Invalid submission
+medium-178: 0.0
+medium-180: Invalid submission
+medium-181: 0.0
+medium-182: 110.08399999999999
+medium-183: Invalid submission
+medium-184: 0.0
+medium-187: 0.0
+medium-189: Invalid submission
+medium-18: Invalid submission
+medium-191: 0.0
+medium-192: Invalid submission
+medium-193: 0.0
+medium-194: Invalid submission
+medium-195: Invalid submission
+medium-196: 0.0
+medium-199: Invalid submission
+medium-19: 0.0
+medium-1: Invalid submission
 medium-200: 0.0
 medium-202: Invalid submission
 medium-203: Invalid submission
@@ -203,6 +295,7 @@ medium-206: 0.0
 medium-207: Invalid submission
 medium-208: 0.0
 medium-209: 30.0
+medium-20: 0.0
 medium-210: 0.0
 medium-211: Invalid submission
 medium-212: Invalid submission
@@ -210,9 +303,11 @@ medium-214: 260.0
 medium-215: Invalid submission
 medium-217: 1830.0
 medium-218: Invalid submission
+medium-21: Invalid submission
 medium-222: Invalid submission
 medium-226: Invalid submission
 medium-228: 110.0
+medium-22: Invalid submission
 medium-230: 0.0
 medium-231: Invalid submission
 medium-233: 0.0
@@ -220,8 +315,71 @@ medium-235: 30.0
 medium-236: 0.0
 medium-237: 0.0
 medium-239: Invalid submission
+medium-23: 0.0
 medium-240: 0.0
 medium-241: Invalid submission
+medium-24: Invalid submission
+medium-26: Invalid submission
+medium-28: Invalid submission
+medium-2: 0.0
+medium-31: Invalid submission
+medium-34: 0.0
+medium-35: Invalid submission
+medium-38: Invalid submission
+medium-39: Invalid submission
+medium-3: Invalid submission
+medium-40: Invalid submission
+medium-41: 0.0
+medium-42: Invalid submission
+medium-44: Invalid submission
+medium-46: 0.0
+medium-47: Invalid submission
+medium-48: 540.098
+medium-49: Invalid submission
+medium-4: Invalid submission
+medium-50: 0.0
+medium-51: Invalid submission
+medium-54: 0.0
+medium-56: 0.0
+medium-57: Invalid submission
+medium-58: 0.0
+medium-59: Invalid submission
+medium-5: Invalid submission
+medium-60: 0.0
+medium-61: Invalid submission
+medium-62: Invalid submission
+medium-63: 0.0
+medium-64: Invalid submission
+medium-65: Invalid submission
+medium-66: Invalid submission
+medium-67: Invalid submission
+medium-68: Invalid submission
+medium-69: Invalid submission
+medium-6: 0.0
+medium-70: 0.0
+medium-73: Invalid submission
+medium-74: 0.0
+medium-75: Invalid submission
+medium-76: 10.0
+medium-77: 0.0
+medium-79: Invalid submission
+medium-7: 0.0
+medium-80: Invalid submission
+medium-81: 0.0
+medium-84: 0.0
+medium-85: Invalid submission
+medium-86: 0.0
+medium-87: 0.0
+medium-88: Invalid submission
+medium-89: Invalid submission
+medium-8: Invalid submission
+medium-90: 0.0
+medium-91: Invalid submission
+medium-92: Invalid submission
+medium-93: Invalid submission
+medium-94: Invalid submission
+medium-97: 0.0
+medium-98: 0.0
 small-100: Invalid submission
 small-102: Invalid submission
 small-103: 0.0

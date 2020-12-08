@@ -1,718 +1,718 @@
-large-52: Invalid submission
-large-192: 0.0
-medium-76.out: No submission
-medium-101.out: No submission
-small-191: 139.999
-small-149: Invalid submission
-small-71: 17.783
-medium-99.out: No submission
-medium-222: Invalid submission
-large-182: 0.0
-medium-60.out: No submission
-medium-67.out: No submission
-large-156: Invalid submission
-large-132: 0.0
-small-4: Invalid submission
-large-65: 0.0
-small-33: 652.274
-large-50: 0.0
-small-109: 0.0
-medium-85.out: No submission
-large-88: Invalid submission
-small-37: Invalid submission
-small-51: 0.0
-large-7: 0.0
-small-76: 5.0
-small-19: Invalid submission
-medium-83.out: No submission
-medium-129.out: No submission
-large-78: 1378.0
-large-113: 0.0
-medium-181.out: No submission
-large-92: Invalid submission
-medium-171.out: No submission
-large-94: Invalid submission
-medium-12.out: No submission
-small-21: 1037.078
-medium-79.out: No submission
-large-60: Invalid submission
-large-9: 7067.0
-medium-23.out: No submission
-medium-15.out: No submission
-medium-217: 1830.0
-medium-82.out: No submission
-large-28: Invalid submission
-small-118: Invalid submission
-medium-52.out: No submission
-small-224: 232.32799999999997
-medium-191.out: No submission
-small-1: 278.21000000000004
-medium-46.out: No submission
-small-142: 81.045
-small-104: Invalid submission
-small-213: 327.331
-large-15: 0.0
-small-124: Invalid submission
-medium-36.out: No submission
-large-11: Invalid submission
-medium-84.out: No submission
-large-45: Invalid submission
-large-109: 0.0
-small-32: 39.381
-small-47: Invalid submission
-small-117: 48.626999999999995
-small-182: Invalid submission
-small-44: Invalid submission
-medium-165.out: No submission
-small-229: 0.0
-large-93: 139.0
-large-221: 568.0
-medium-11.out: No submission
-small-173: Invalid submission
-large-39: 0.0
-small-110: 324.0
-small-190: 4.923
-small-114: Invalid submission
-large-64: 0.0
-medium-35.out: No submission
-medium-45.out: No submission
-large-169: 0.0
-medium-200: 0.0
-large-185: 0.0
-large-30: 7611.599000000001
-large-150: Invalid submission
-small-91: Invalid submission
-medium-159.out: No submission
-large-125: 0.0
-medium-114.out: No submission
-small-29: 183.793
-large-99: 35.454
-large-79: Invalid submission
-medium-90.out: No submission
-medium-163.out: No submission
-large-189: Invalid submission
-large-124: 846.6049999999999
-small-185: 30.761000000000003
-medium-25.out: No submission
-large-163: Invalid submission
-large-131: 0.0
-large-24: 0.0
-small-144: Invalid submission
-large-210: 0.0
-small-107: 0.0
-large-82: 2440.0
-small-41: Invalid submission
-small-153: 0.0
-medium-194.out: No submission
-medium-224: 378.014
-large-195: Invalid submission
-large-121: 0.0
-medium-70.out: No submission
-small-132: 0.0
-medium-208: 0.0
-small-15: 0.0
-small-146: Invalid submission
-medium-7.out: No submission
-medium-127.out: No submission
-small-151: 0.0
-large-107: 0.0
-small-57: 0.0
-large-53: Invalid submission
-small-163: 0.0
-small-96: 5.983999999999999
-medium-110.out: No submission
-large-141: 0.0
-large-22: Invalid submission
-large-180: Invalid submission
-small-79: 90.0
-small-212: Invalid submission
-small-152: 7.4
-large-111: Invalid submission
-large-200: Invalid submission
-medium-119.out: No submission
-medium-156.out: No submission
-small-70: 33.0
-medium-64.out: No submission
-large-91: 4201.066000000001
-large-97: 0.0
-small-62: Invalid submission
-small-93: 28.0
-medium-5.out: No submission
-large-178: 0.0
-medium-18.out: No submission
-medium-49.out: No submission
-large-3: 0.0
+medium-173: Invalid submission
+large-6: Invalid submission
+medium-29: 143.69500000000002
 large-21: Invalid submission
-medium-26.out: No submission
-large-217: Invalid submission
-medium-238: 18.0
-small-50: 30.633
-small-209: Invalid submission
-large-143: Invalid submission
-medium-195.out: No submission
-small-100: Invalid submission
-medium-201: 57.0
-large-32: 86.801
-medium-80.out: No submission
-large-241: Invalid submission
+small-186: Invalid submission
+small-217: Invalid submission
+large-141: 0.0
+medium-6: 0.0
+medium-220: 489.0
+large-179: Invalid submission
+medium-124: Invalid submission
+medium-137: 0.0
+small-194: Invalid submission
+large-61: Invalid submission
+large-180: Invalid submission
+large-117: Invalid submission
+medium-141: Invalid submission
+small-117: 48.626999999999995
+medium-231: Invalid submission
+large-99: 35.454
+small-97: Invalid submission
+small-183: Invalid submission
+small-3: 374.539
+small-148: Invalid submission
+medium-21: Invalid submission
 small-128: 0.0
-large-20: Invalid submission
-small-129: Invalid submission
-small-233: 0.0
-small-242: 15.0
-small-17: 47.119
-large-90: 0.0
+medium-92: Invalid submission
+large-22: Invalid submission
+medium-216: 1451.0
+medium-191: 0.0
+small-29: 183.793
+large-162: Invalid submission
+medium-188: 392.37199999999996
+small-153: 0.0
+large-171: Invalid submission
+medium-202: Invalid submission
+medium-154: Invalid submission
+small-149: Invalid submission
+large-238: 56.0
+small-166: 0.0
+small-58: 438.492
+small-69: Invalid submission
+large-57: Invalid submission
+small-43: 25.636
+small-121: 0.0
+medium-76: 10.0
+large-62: Invalid submission
+large-86: Invalid submission
+large-231: 0.0
+medium-103: 0.0
+medium-104: 309.167
+medium-4: Invalid submission
+large-213: 1614.933
+small-205: 0.0
+small-138: Invalid submission
+large-13: Invalid submission
+large-81: 0.0
+small-5: 37.0
+large-195: Invalid submission
+large-205: Invalid submission
+large-196: 0.0
+small-8: Invalid submission
+large-142: 122.38499999999998
+small-156: 16.54
+medium-108: Invalid submission
+small-54: 0.0
+large-241: Invalid submission
+small-38: 0.0
+large-155: 0.0
+medium-9: 4967.0
+large-160: Invalid submission
+large-226: 8.327
+medium-89: Invalid submission
+medium-234: 30.785999999999998
+small-125: Invalid submission
+large-204: Invalid submission
+small-154: 29.267000000000003
+medium-236: 0.0
+large-232: 0.0
+medium-222: Invalid submission
+large-147: Invalid submission
+small-20: 0.0
+medium-119: Invalid submission
+large-16: 2797.0070000000005
+large-47: Invalid submission
+small-48: 33.0
+medium-215: Invalid submission
+medium-237: 0.0
+small-103: 0.0
+medium-226: Invalid submission
+large-183: Invalid submission
+medium-74: 0.0
+small-174: 0.0
+small-225: Invalid submission
+small-55: 869.181
+small-56: 0.0
+small-70: 33.0
+small-10: 227.70000000000002
+medium-100: 0.0
+medium-180: Invalid submission
+medium-71: 31.156000000000006
+medium-2: 0.0
+small-30: 490.332
+medium-167: 0.0
+small-133: Invalid submission
+small-87: 0.0
+medium-102: Invalid submission
+medium-149: 35.522999999999996
+small-190: 4.923
+medium-58: 0.0
+large-151: 0.0
+small-50: 30.633
+large-236: Invalid submission
+medium-208: 0.0
+large-185: 0.0
+medium-143: 0.0
+medium-41: 0.0
+large-53: Invalid submission
+small-240: 0.0
+large-68: 0.0
+medium-184: 0.0
+medium-133: Invalid submission
+medium-10: Invalid submission
+large-153: Invalid submission
+small-120: Invalid submission
+medium-192: Invalid submission
+medium-23: 0.0
+small-230: Invalid submission
+large-70: Invalid submission
+small-108: Invalid submission
+large-134: 37.785
+small-184: 0.0
+small-100: Invalid submission
+medium-130: Invalid submission
 small-169: 351.94599999999997
+large-112: 0.0
+large-197: 0.0
+small-116: 851.045
+large-138: 425.0
+medium-151: 0.0
+small-96: 5.983999999999999
+large-187: 0.0
+large-143: Invalid submission
+medium-203: Invalid submission
+medium-56: 0.0
+large-221: 568.0
 medium-213: 591.727
-medium-92.out: No submission
-small-94: Invalid submission
-medium-138.out: No submission
-medium-56.out: No submission
-large-234: Invalid submission
-medium-21.out: No submission
-small-6: 280.831
-small-145: Invalid submission
-large-67: 0.0
-medium-190.out: No submission
-large-165: Invalid submission
-small-219: 28.0
-small-105: 0.0
-medium-168.out: No submission
-small-59: 107.83200000000001
-small-95: Invalid submission
-medium-126.out: No submission
-small-139: Invalid submission
-small-2: 0.0
-large-48: 6344.028
-medium-113.out: No submission
+medium-106: Invalid submission
+medium-63: 0.0
+medium-115: 0.0
+small-214: Invalid submission
+small-195: 281.787
+small-208: 5.0
+large-95: Invalid submission
+large-130: 0.0
+large-240: 0.0
+small-168: 62.599999999999994
+medium-36: 32.0
+medium-138: Invalid submission
+small-171: Invalid submission
+large-129: 410.0
+small-84: 36.0
+medium-48: 540.098
+large-27: Invalid submission
+small-111: Invalid submission
+large-98: Invalid submission
+medium-197: 41.038
+medium-152: 20.200000000000003
+small-228: Invalid submission
+small-242: 15.0
+small-61: Invalid submission
+small-74: Invalid submission
+small-165: Invalid submission
+small-76: 5.0
+medium-120: Invalid submission
+small-189: Invalid submission
+medium-111: 0.0
+medium-187: 0.0
+small-201: 45.0
+medium-168: Invalid submission
+medium-26: Invalid submission
+medium-57: Invalid submission
+large-228: 73.0
+large-175: 0.0
+large-194: Invalid submission
+medium-27: 51.085
+small-109: 0.0
+large-75: Invalid submission
+small-143: 0.0
+medium-185: 40.196
+small-241: Invalid submission
+medium-228: 110.0
+small-71: 17.783
+small-206: Invalid submission
+large-104: 776.187
+small-52: 1149.119
+medium-199: Invalid submission
+large-79: Invalid submission
+large-69: Invalid submission
+large-115: 0.0
+large-230: Invalid submission
+large-233: 0.0
+large-132: 0.0
+medium-147: 0.0
+large-137: 0.0
+small-192: 206.478
 large-227: Invalid submission
-medium-50.out: No submission
+large-169: 0.0
+medium-230: 0.0
+medium-90: 0.0
+small-118: Invalid submission
+medium-32: 65.191
+large-207: Invalid submission
+large-193: Invalid submission
+medium-12: 0.0
 small-90: 0.0
 large-43: 1564.5639999999999
-medium-207: Invalid submission
-medium-137.out: No submission
-large-230: Invalid submission
-medium-228: 110.0
-large-146: Invalid submission
-medium-161.out: No submission
-large-175: 0.0
-medium-65.out: No submission
-small-120: Invalid submission
-small-68: Invalid submission
-small-89: Invalid submission
-large-162: Invalid submission
-medium-198.out: No submission
-large-104: 776.187
-large-188: Invalid submission
-medium-86.out: No submission
-medium-39.out: No submission
-large-154: Invalid submission
-small-8: Invalid submission
-large-69: Invalid submission
-large-46: Invalid submission
-medium-167.out: No submission
-small-181: 0.0
-medium-227: 96.774
-small-232: 57.64
-small-58: 438.492
-medium-28.out: No submission
-small-204: 0.0
-small-231: Invalid submission
-medium-199.out: No submission
-medium-31.out: No submission
-small-199: Invalid submission
-large-77: 0.0
-medium-240: 0.0
-small-208: 5.0
-medium-180.out: No submission
-large-101: 0.0
-small-42: 0.0
-medium-130.out: No submission
-medium-10.out: No submission
-small-215: Invalid submission
-large-87: 0.0
-medium-75.out: No submission
-large-153: Invalid submission
-small-83: 15.245000000000001
-small-39: Invalid submission
-medium-81.out: No submission
-medium-187.out: No submission
-medium-139.out: No submission
-large-223: Invalid submission
-small-85: Invalid submission
-medium-143.out: No submission
-large-164: Invalid submission
-small-65: Invalid submission
-medium-205: Invalid submission
-small-202: Invalid submission
-small-67: 200.289
-small-125: Invalid submission
-large-177: 0.0
-medium-158.out: No submission
-medium-97.out: No submission
-large-148: 0.0
-small-24: Invalid submission
-large-130: 0.0
-medium-34.out: No submission
-small-48: 33.0
-large-117: Invalid submission
-medium-13.out: No submission
-small-227: 21.959999999999997
-medium-53.out: No submission
-large-173: Invalid submission
-large-114: Invalid submission
-medium-66.out: No submission
-medium-144.out: No submission
-small-168: 62.599999999999994
-medium-183.out: No submission
-medium-242: 46.0
-small-80: 0.0
-small-97: Invalid submission
-medium-178.out: No submission
-medium-123.out: No submission
-small-106: Invalid submission
-medium-223: 263.656
-medium-214: 260.0
-small-214: Invalid submission
-medium-172.out: No submission
-small-108: Invalid submission
-small-53: 1149.119
-medium-149.out: No submission
-small-81: 28.0
-medium-16.out: No submission
-large-187: 0.0
-large-183: Invalid submission
-medium-111.out: No submission
-large-186: 1119.565
-medium-20.out: No submission
-large-61: Invalid submission
-small-221: Invalid submission
-medium-59.out: No submission
-medium-185.out: No submission
-large-205: Invalid submission
-small-115: 0.0
-small-111: Invalid submission
-medium-61.out: No submission
-medium-204: 0.0
-small-116: 851.045
-small-198: 419.70000000000005
-small-31: 33.75
-large-147: Invalid submission
-large-12: 0.0
-small-10: 227.70000000000002
-medium-121.out: No submission
-large-222: Invalid submission
-small-183: Invalid submission
-medium-68.out: No submission
-large-96: 48.628
-large-238: 56.0
-large-116: Invalid submission
-small-27: Invalid submission
-medium-77.out: No submission
-large-110: 0.0
-large-106: Invalid submission
-large-80: 31339.0
-large-6: Invalid submission
-large-13: Invalid submission
-large-203: 0.0
-small-177: Invalid submission
-medium-152.out: No submission
-small-164: 0.0
-medium-29.out: No submission
-large-37: 4979.754
-small-61: Invalid submission
-medium-87.out: No submission
-large-144: Invalid submission
-medium-74.out: No submission
-large-168: 0.108
-medium-47.out: No submission
-large-42: Invalid submission
-small-241: Invalid submission
-medium-176.out: No submission
-small-237: 296.684
-large-73: 0.0
-small-101: 351.238
-small-28: 0.0
-medium-116.out: No submission
-medium-164.out: No submission
-medium-41.out: No submission
-small-52: 1149.119
-small-49: Invalid submission
-large-213: 1614.933
-medium-134.out: No submission
-large-197: 0.0
-small-155: 2.0399999999999996
-small-210: Invalid submission
-medium-44.out: No submission
-small-26: 36.0
-medium-135.out: No submission
-small-222: Invalid submission
-medium-145.out: No submission
-large-75: Invalid submission
-small-217: Invalid submission
-large-158: Invalid submission
-small-7: 0.0
-small-119: Invalid submission
-medium-236: 0.0
-medium-192.out: No submission
-large-63: 0.0
-medium-106.out: No submission
-medium-104.out: No submission
-large-231: 0.0
-large-55: 965.3760000000002
-large-38: 0.0
-small-133: Invalid submission
-medium-120.out: No submission
+medium-153: Invalid submission
+medium-34: 0.0
 small-72: 18.0
-medium-38.out: No submission
-large-86: Invalid submission
-small-166: 0.0
-large-102: Invalid submission
-large-23: Invalid submission
-small-238: 23.0
-large-115: 0.0
-small-225: Invalid submission
-large-214: Invalid submission
-large-119: Invalid submission
-large-240: 0.0
-small-113: 0.0
-small-176: Invalid submission
-medium-24.out: No submission
-medium-69.out: No submission
-medium-203: Invalid submission
-small-46: Invalid submission
-large-194: Invalid submission
-medium-89.out: No submission
-large-216: Invalid submission
-large-237: Invalid submission
-medium-1.out: No submission
-small-174: 0.0
-small-143: 0.0
-small-22: Invalid submission
-small-159: 0.0
-large-155: 0.0
-small-12: Invalid submission
-small-175: 0.0
-large-207: Invalid submission
-medium-63.out: No submission
-medium-220: 489.0
-large-118: 0.0
-medium-132.out: No submission
-large-136: Invalid submission
-small-167: 0.0
-large-172: 0.0
-small-239: Invalid submission
-small-189: Invalid submission
-small-165: Invalid submission
-large-54: 0.0
-large-225: Invalid submission
-large-62: Invalid submission
-large-34: 0.0
-large-139: Invalid submission
-large-76: 25.0
-large-184: 0.0
-small-5: 37.0
-large-128: 0.0
-medium-241: Invalid submission
-medium-105.out: No submission
-large-137: 0.0
-large-166: 0.0
-medium-54.out: No submission
-medium-71.out: No submission
-medium-124.out: No submission
-small-13: Invalid submission
-small-11: 0.0
-small-137: 0.0
-medium-233: 0.0
-medium-37.out: No submission
-large-202: Invalid submission
-small-134: 42.96
-large-112: 0.0
-medium-218: Invalid submission
-small-156: 16.54
-medium-147.out: No submission
-large-29: 84.65400000000001
-medium-30.out: No submission
-small-82: 246.0
-large-51: 0.0
-small-55: 869.181
-medium-100.out: No submission
-small-138: Invalid submission
-medium-140.out: No submission
-small-126: 0.0
-small-73: 0.0
-small-160: Invalid submission
-large-85: Invalid submission
-small-43: 25.636
-medium-22.out: No submission
-small-200: Invalid submission
-small-75: 99.0
-small-230: Invalid submission
-medium-153.out: No submission
-large-27: Invalid submission
-large-14: 0.0
-small-211: Invalid submission
-medium-6.out: No submission
-small-223: Invalid submission
-large-95: Invalid submission
-large-167: Invalid submission
-small-192: 206.478
-medium-155.out: No submission
-small-20: 0.0
-large-31: Invalid submission
-small-54: 0.0
-medium-209: 30.0
-large-129: 410.0
-large-100: Invalid submission
-large-70: Invalid submission
-large-72: 267.0
-large-198: 2613.888
-small-66: Invalid submission
-medium-118.out: No submission
-small-112: 0.0
-large-199: Invalid submission
-small-179: 47.818
-medium-55.out: No submission
-large-26: Invalid submission
-medium-193.out: No submission
-small-196: 17.631
-large-49: Invalid submission
-medium-142.out: No submission
-medium-169.out: No submission
-large-159: 0.0
-large-174: 0.0
-medium-170.out: No submission
-large-66: 0.0
-medium-2.out: No submission
-large-191: 0.0
-large-228: 73.0
-small-122: 40.0
-large-134: 37.785
-medium-72.out: No submission
-medium-148.out: No submission
-medium-229: 46.081999999999994
-small-103: 0.0
-large-239: Invalid submission
-medium-19.out: No submission
-large-171: Invalid submission
-large-122: 24.856999999999996
-large-35: Invalid submission
-large-127: 90.785
-medium-182.out: No submission
-small-92: Invalid submission
-large-229: Invalid submission
-medium-8.out: No submission
-medium-125.out: No submission
-medium-27.out: No submission
-medium-189.out: No submission
-medium-95.out: No submission
-small-180: Invalid submission
-medium-51.out: No submission
-small-240: 0.0
-medium-131.out: No submission
-medium-173.out: No submission
-medium-14.out: No submission
-medium-91.out: No submission
-small-148: Invalid submission
-medium-128.out: No submission
-large-232: 0.0
-large-138: 425.0
-medium-177.out: No submission
-medium-188.out: No submission
-medium-150.out: No submission
-medium-141.out: No submission
-medium-98.out: No submission
-small-136: Invalid submission
-medium-112.out: No submission
-medium-107.out: No submission
-large-83: Invalid submission
-large-220: 0.0
-large-140: Invalid submission
-small-157: 19.0
-medium-154.out: No submission
-large-204: Invalid submission
-small-77: 0.0
-small-84: 36.0
-medium-33.out: No submission
-small-193: Invalid submission
-medium-212: Invalid submission
-large-206: Invalid submission
-medium-88.out: No submission
-large-133: Invalid submission
-large-212: Invalid submission
-small-63: 0.0
-large-41: Invalid submission
-large-145: Invalid submission
-large-2: 0.0
-small-162: Invalid submission
-small-184: 0.0
-large-209: Invalid submission
-medium-206: 0.0
-medium-58.out: No submission
-large-170: Invalid submission
-large-179: Invalid submission
-medium-211: Invalid submission
-small-86: 0.0
-medium-237: 0.0
-medium-109.out: No submission
-large-201: 1225.0
-medium-179.out: No submission
-medium-3.out: No submission
-medium-202: Invalid submission
-medium-73.out: No submission
-large-103: Invalid submission
-large-193: Invalid submission
-medium-108.out: No submission
-small-34: 0.0
-medium-17.out: No submission
-small-197: Invalid submission
-small-234: Invalid submission
-small-30: 490.332
-large-151: 0.0
-medium-93.out: No submission
-large-157: 68.0
-small-161: Invalid submission
-large-160: Invalid submission
-large-25: Invalid submission
-medium-215: Invalid submission
-large-211: Invalid submission
-medium-57.out: No submission
-large-215: 2475.0
-large-226: 8.327
-small-36: 8.0
-small-205: 0.0
-large-40: Invalid submission
-large-126: 0.0
-small-186: Invalid submission
-small-74: Invalid submission
-small-78: Invalid submission
-large-74: 0.0
-small-23: 0.0
-small-216: 170.0
-small-158: Invalid submission
-small-154: 29.267000000000003
-large-98: Invalid submission
-large-57: Invalid submission
-medium-151.out: No submission
-small-127: Invalid submission
-small-14: 0.0
-small-206: Invalid submission
-small-220: 0.0
-small-218: Invalid submission
-large-44: Invalid submission
-large-105: 0.0
-large-10: 0.0
-small-178: Invalid submission
-medium-234: 30.785999999999998
-small-88: Invalid submission
-medium-160.out: No submission
-medium-216: 1451.0
-small-228: Invalid submission
-medium-232: 48.927
-small-141: 0.0
-large-17: 0.0
-small-135: Invalid submission
-medium-122.out: No submission
-large-59: 58.634
-small-171: Invalid submission
-medium-102.out: No submission
-medium-103.out: No submission
-small-188: Invalid submission
-large-81: 0.0
-medium-184.out: No submission
-large-236: Invalid submission
-medium-40.out: No submission
-small-194: Invalid submission
-small-56: 0.0
-medium-62.out: No submission
-small-170: Invalid submission
-medium-96.out: No submission
-medium-175.out: No submission
-large-1: Invalid submission
-medium-157.out: No submission
-large-181: 0.0
-medium-166.out: No submission
-large-71: Invalid submission
-medium-162.out: No submission
-medium-42.out: No submission
-medium-9.out: No submission
-medium-43.out: No submission
-large-16: 2797.0070000000005
-small-25: Invalid submission
-large-58: 0.0
-small-123: 0.0
-medium-186.out: No submission
-large-123: 0.0
-large-33: 31281.559
-medium-94.out: No submission
-medium-196.out: No submission
-small-18: 0.0
-small-236: 0.0
-large-242: Invalid submission
-large-152: Invalid submission
-medium-136.out: No submission
-medium-48.out: No submission
-small-102: Invalid submission
-large-89: 0.0
-small-60: Invalid submission
-medium-115.out: No submission
 small-172: Invalid submission
-medium-4.out: No submission
-small-226: 0.0
-small-64: 0.0
-small-40: Invalid submission
-medium-78.out: No submission
-large-142: 122.38499999999998
-small-69: Invalid submission
-small-35: 0.0
-large-18: Invalid submission
-large-149: 0.0
-medium-210: 0.0
-small-3: 374.539
-small-130: 114.44
-large-161: Invalid submission
-large-84: 0.0
-medium-174.out: No submission
-medium-117.out: No submission
-small-195: 281.787
-small-87: 0.0
-large-196: 0.0
-large-176: Invalid submission
-large-233: 0.0
-medium-226: Invalid submission
-medium-133.out: No submission
-large-19: 0.0
-large-190: 56.114999999999995
+medium-107: Invalid submission
+medium-18: Invalid submission
+medium-201: 57.0
+small-88: Invalid submission
+medium-196: 0.0
+small-136: Invalid submission
+large-158: Invalid submission
+small-51: 0.0
+large-78: 1378.0
+small-212: Invalid submission
+small-21: 1037.078
+small-219: 28.0
+medium-175: 0.0
+large-212: Invalid submission
+large-172: 0.0
 small-140: Invalid submission
-small-201: 45.0
-small-9: 295.0
-small-98: Invalid submission
-small-121: 0.0
-small-235: 20.0
-medium-32.out: No submission
-medium-146.out: No submission
-small-203: 0.0
-large-120: Invalid submission
-large-47: Invalid submission
-small-187: 0.0
-large-68: 0.0
-large-4: Invalid submission
-medium-239: Invalid submission
-large-108: 0.0
-large-5: 361.0
-small-45: Invalid submission
+large-77: 0.0
+large-55: 965.3760000000002
+medium-24: Invalid submission
+large-203: 0.0
+small-75: 99.0
+medium-206: 0.0
+small-220: 0.0
+large-39: 0.0
+large-217: Invalid submission
+medium-61: Invalid submission
+large-106: Invalid submission
+large-15: 0.0
+large-201: 1225.0
 small-131: 0.0
-medium-197.out: No submission
-medium-235: 30.0
-large-56: 0.0
-small-38: 0.0
-small-16: 68.092
+large-223: Invalid submission
+small-26: 36.0
+medium-204: 0.0
+small-229: 0.0
+small-162: Invalid submission
+small-187: 0.0
+small-211: Invalid submission
 small-99: Invalid submission
-large-36: 121.0
-large-8: 0.0
-small-207: 0.0
-medium-221: 35.0
-medium-230: 0.0
-small-150: 244.81900000000002
+large-37: 4979.754
+medium-73: Invalid submission
+small-114: Invalid submission
+large-186: 1119.565
+large-83: Invalid submission
+large-173: Invalid submission
+small-188: Invalid submission
+small-196: 17.631
+large-119: Invalid submission
+large-73: 0.0
+large-28: Invalid submission
+large-71: Invalid submission
+small-202: Invalid submission
+small-159: 0.0
+small-105: 0.0
+small-160: Invalid submission
+medium-240: 0.0
+small-231: Invalid submission
+large-9: 7067.0
+small-28: 0.0
+large-85: Invalid submission
+large-11: Invalid submission
+medium-212: Invalid submission
+small-226: 0.0
+small-179: 47.818
+medium-95: 1341.0
+large-14: 0.0
+large-10: 0.0
+small-104: Invalid submission
+large-72: 267.0
+small-14: 0.0
+medium-235: 30.0
+large-176: Invalid submission
+small-53: 1149.119
+small-215: Invalid submission
+large-103: Invalid submission
+medium-105: 0.0
+small-67: 200.289
+medium-109: 0.0
+large-237: Invalid submission
+large-131: 0.0
+small-2: 0.0
+small-79: 90.0
+medium-68: Invalid submission
+large-48: 6344.028
+medium-110: 0.0
+small-95: Invalid submission
+small-144: Invalid submission
+large-128: 0.0
+small-41: Invalid submission
+medium-38: Invalid submission
+large-34: 0.0
+large-100: Invalid submission
+medium-121: 0.0
+medium-172: 0.0
+medium-16: Invalid submission
+medium-78: 197.0
+small-139: Invalid submission
+medium-54: 0.0
+medium-28: Invalid submission
+small-92: Invalid submission
+large-120: Invalid submission
+large-216: Invalid submission
+medium-55: 1612.6460000000002
+medium-67: Invalid submission
+small-6: 280.831
+medium-8: Invalid submission
+medium-144: 146.578
+medium-96: 18.980999999999998
+small-204: 0.0
 small-147: 0.0
-medium-231: Invalid submission
+small-127: Invalid submission
+large-29: 84.65400000000001
+medium-125: 0.0
+large-149: 0.0
+medium-169: 0.0
+large-2: 0.0
+small-68: Invalid submission
+large-198: 2613.888
+small-163: 0.0
+medium-62: Invalid submission
+medium-30: 1018.7660000000001
+medium-232: 48.927
+small-142: 81.045
+small-65: Invalid submission
+large-127: 90.785
+small-145: Invalid submission
+medium-156: 0.0
+medium-37: 905.516
+small-167: 0.0
+large-54: 0.0
+small-23: 0.0
+medium-214: 260.0
+small-233: 0.0
+medium-131: 0.0
+large-1: Invalid submission
+large-190: 56.114999999999995
+large-210: 0.0
+large-123: 0.0
+medium-205: Invalid submission
+small-213: 327.331
+small-78: Invalid submission
+small-180: Invalid submission
+large-126: 0.0
+medium-161: Invalid submission
+large-58: 0.0
+large-242: Invalid submission
+small-237: 296.684
+medium-160: Invalid submission
+large-234: Invalid submission
+medium-17: 262.78599999999994
+small-16: 68.092
+small-175: 0.0
+medium-35: Invalid submission
+medium-150: 1212.094
+medium-13: Invalid submission
+small-177: Invalid submission
+small-36: 8.0
+medium-132: Invalid submission
+medium-53: 4888.490000000001
+large-66: 0.0
+large-92: Invalid submission
+small-198: 419.70000000000005
+small-24: Invalid submission
+small-119: Invalid submission
+large-26: Invalid submission
+medium-82: 498.0
+medium-146: Invalid submission
+medium-85: Invalid submission
+large-222: Invalid submission
+small-236: 0.0
+large-202: Invalid submission
+small-59: 107.83200000000001
+large-163: Invalid submission
+large-150: Invalid submission
+small-45: Invalid submission
+small-18: 0.0
+medium-72: 62.0
+medium-155: 0.0
+medium-164: 0.0
+medium-114: Invalid submission
+small-106: Invalid submission
+small-27: Invalid submission
+medium-59: Invalid submission
+large-184: 0.0
+medium-42: Invalid submission
+small-62: Invalid submission
+medium-194: Invalid submission
+medium-77: 0.0
+large-97: 0.0
+large-109: 0.0
+large-114: Invalid submission
+large-118: 0.0
+medium-126: Invalid submission
+large-25: Invalid submission
+large-20: Invalid submission
+small-173: Invalid submission
+small-239: Invalid submission
+small-102: Invalid submission
+large-156: Invalid submission
+small-12: Invalid submission
+large-105: 0.0
+large-67: 0.0
+large-33: 31281.559
+large-23: Invalid submission
+large-50: 0.0
+small-19: Invalid submission
+large-31: Invalid submission
+large-215: 2475.0
+large-167: Invalid submission
+large-108: 0.0
+medium-43: 175.88799999999998
+small-66: Invalid submission
+large-181: 0.0
+medium-241: Invalid submission
+medium-163: 0.0
+medium-178: 0.0
+medium-140: Invalid submission
+medium-193: 0.0
+large-178: 0.0
+small-158: Invalid submission
+large-8: 0.0
+small-112: 0.0
+large-116: Invalid submission
+medium-181: 0.0
+small-123: 0.0
+small-238: 23.0
+small-39: Invalid submission
+large-124: 846.6049999999999
+small-31: 33.75
+small-122: 40.0
+large-164: Invalid submission
+small-86: 0.0
+small-85: Invalid submission
+medium-238: 18.0
+medium-94: Invalid submission
+large-111: Invalid submission
+small-35: 0.0
+medium-118: 0.0
+medium-123: 0.0
+medium-80: Invalid submission
+large-170: Invalid submission
+large-145: Invalid submission
+large-211: Invalid submission
+small-210: Invalid submission
+small-4: Invalid submission
+medium-159: 0.0
+medium-158: Invalid submission
+medium-97: 0.0
+medium-170: Invalid submission
+medium-176: Invalid submission
+medium-211: Invalid submission
+small-199: Invalid submission
+small-152: 7.4
+large-133: Invalid submission
+small-37: Invalid submission
+small-232: 57.64
+small-98: Invalid submission
+small-227: 21.959999999999997
+medium-83: 37.83500000000001
+medium-179: 31.56
+large-113: 0.0
+small-40: Invalid submission
+small-221: Invalid submission
+small-60: Invalid submission
+small-93: 28.0
+small-17: 47.119
+medium-50: 0.0
+small-82: 246.0
+large-144: Invalid submission
+large-5: 361.0
+medium-148: 60.0
+small-22: Invalid submission
+medium-14: 0.0
+medium-122: 0.0
+small-124: Invalid submission
+large-220: 0.0
+large-93: 139.0
+medium-157: 0.0
+medium-84: 0.0
+large-36: 121.0
+large-189: Invalid submission
+medium-128: 0.0
+medium-3: Invalid submission
+large-59: 58.634
+small-185: 30.761000000000003
+medium-183: Invalid submission
+small-235: 20.0
+large-76: 25.0
+large-30: 7611.599000000001
+small-137: 0.0
+large-140: Invalid submission
+large-56: 0.0
+large-229: Invalid submission
+small-101: 351.238
+medium-112: 0.0
+medium-135: 0.0
+medium-171: 0.06700000000000002
+small-135: Invalid submission
+medium-47: Invalid submission
+medium-198: 515.892
+small-49: Invalid submission
+small-73: 0.0
+medium-117: 343.426
+large-35: Invalid submission
+large-60: Invalid submission
+large-74: 0.0
+large-152: Invalid submission
+medium-99: 32.892
+medium-66: Invalid submission
+small-197: Invalid submission
+small-141: 0.0
+large-139: Invalid submission
+small-42: 0.0
+medium-217: 1830.0
+medium-233: 0.0
+large-40: Invalid submission
+medium-60: 0.0
+small-223: Invalid submission
+large-90: 0.0
+small-176: Invalid submission
+medium-64: Invalid submission
+large-121: 0.0
+small-81: 28.0
+large-192: 0.0
+medium-101: Invalid submission
+large-177: 0.0
+medium-229: 46.081999999999994
+large-17: 0.0
+medium-15: 0.0
+medium-20: 0.0
+medium-209: 30.0
+large-209: Invalid submission
+large-122: 24.856999999999996
+small-1: 278.21000000000004
+medium-136: Invalid submission
+small-193: Invalid submission
+small-155: 2.0399999999999996
+small-47: Invalid submission
+large-84: 0.0
+small-170: Invalid submission
+small-57: 0.0
+medium-51: Invalid submission
+large-191: 0.0
+large-65: 0.0
+medium-139: Invalid submission
+small-34: 0.0
+medium-49: Invalid submission
+medium-134: 39.590999999999994
+large-165: Invalid submission
+medium-45: 380.229
+small-25: Invalid submission
+medium-81: 0.0
+small-181: 0.0
+large-239: Invalid submission
+medium-65: Invalid submission
+small-203: 0.0
+medium-127: 108.50299999999999
+medium-116: 2651.997
+large-225: Invalid submission
+medium-207: Invalid submission
+large-166: 0.0
+large-168: 0.108
+large-44: Invalid submission
+medium-195: Invalid submission
+large-214: Invalid submission
+small-132: 0.0
+small-94: Invalid submission
+medium-93: Invalid submission
+medium-182: 110.08399999999999
+small-161: Invalid submission
+small-182: Invalid submission
+medium-11: Invalid submission
+large-102: Invalid submission
+large-4: Invalid submission
+medium-40: Invalid submission
+small-130: 114.44
+large-42: Invalid submission
+large-7: 0.0
+large-107: 0.0
+medium-79: Invalid submission
+small-77: 0.0
+large-157: 68.0
+small-46: Invalid submission
+medium-75: Invalid submission
+medium-86: 0.0
+small-83: 15.245000000000001
+small-63: 0.0
+medium-69: Invalid submission
+medium-39: Invalid submission
+small-64: 0.0
+medium-162: 100.19000000000001
+small-150: 244.81900000000002
+small-200: Invalid submission
+large-125: 0.0
+small-110: 324.0
+medium-70: 0.0
+small-11: 0.0
+large-52: Invalid submission
+large-80: 31339.0
+large-200: Invalid submission
+medium-190: 23.06
+medium-239: Invalid submission
+small-146: Invalid submission
+small-191: 139.999
+medium-186: 118.431
+medium-44: Invalid submission
+large-148: 0.0
+medium-91: Invalid submission
+small-89: Invalid submission
+medium-200: 0.0
+small-157: 19.0
+large-3: 0.0
+small-164: 0.0
+large-49: Invalid submission
+small-216: 170.0
+large-32: 86.801
+large-182: 0.0
+large-96: 48.628
+large-206: Invalid submission
+medium-87: 0.0
+medium-142: 677.443
+medium-227: 96.774
+large-24: 0.0
+small-13: Invalid submission
+medium-52: 5215.119
+medium-31: Invalid submission
+small-218: Invalid submission
+small-107: 0.0
+large-89: 0.0
+large-154: Invalid submission
+small-80: 0.0
+large-161: Invalid submission
+medium-221: 35.0
+medium-177: Invalid submission
+large-45: Invalid submission
+medium-189: Invalid submission
+small-209: Invalid submission
+large-110: 0.0
+small-15: 0.0
+large-19: 0.0
+medium-98: 0.0
+large-88: Invalid submission
+medium-5: Invalid submission
+small-32: 39.381
+small-224: 232.32799999999997
+small-91: Invalid submission
+medium-1: Invalid submission
+large-12: 0.0
+medium-22: Invalid submission
+large-146: Invalid submission
+small-7: 0.0
+small-178: Invalid submission
+medium-129: Invalid submission
+large-64: 0.0
+small-9: 295.0
+large-87: 0.0
+large-94: Invalid submission
+medium-223: 263.656
+medium-145: Invalid submission
+large-41: Invalid submission
+medium-25: 21.403
+large-46: Invalid submission
+small-207: 0.0
+medium-33: 9903.349
+large-136: Invalid submission
+large-188: Invalid submission
+large-159: 0.0
+medium-210: 0.0
+large-18: Invalid submission
+large-91: 4201.066000000001
+medium-166: 0.0
+large-101: 0.0
+medium-174: 0.0
+small-113: 0.0
+large-82: 2440.0
+large-63: 0.0
+large-174: 0.0
+medium-218: Invalid submission
+large-51: 0.0
+large-199: Invalid submission
+small-222: Invalid submission
+small-44: Invalid submission
+medium-46: 0.0
+small-134: 42.96
+small-33: 652.274
+medium-242: 46.0
+small-126: 0.0
+medium-7: 0.0
+small-129: Invalid submission
+small-234: Invalid submission
+medium-19: 0.0
+small-151: 0.0
+medium-224: 378.014
+medium-88: Invalid submission
+medium-113: 0.0
+medium-165: Invalid submission
+small-115: 0.0
+large-38: 0.0
